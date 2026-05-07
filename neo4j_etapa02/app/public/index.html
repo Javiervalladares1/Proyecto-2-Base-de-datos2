@@ -1,0 +1,157 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Fraude Bancario Neo4j</title>
+    <link rel="stylesheet" href="/styles.css" />
+  </head>
+  <body>
+    <aside class="sidebar">
+      <div class="brand">
+        <span class="brand-mark">FB</span>
+        <div>
+          <strong>Fraude Bancario</strong>
+          <small>Neo4j Aura</small>
+        </div>
+      </div>
+      <nav>
+        <button class="nav-button active" data-view="dashboard">Panel</button>
+        <button class="nav-button" data-view="graph">Grafo</button>
+        <button class="nav-button" data-view="fraud">Fraude</button>
+        <button class="nav-button" data-view="crud">CRUD</button>
+        <button class="nav-button" data-view="csv">CSV</button>
+        <button class="nav-button" data-view="rubric">Rubrica</button>
+      </nav>
+      <div class="status-card">
+        <span id="healthDot" class="dot"></span>
+        <div>
+          <strong id="healthText">Conectando</strong>
+          <small id="healthDb">Base Neo4j</small>
+        </div>
+      </div>
+    </aside>
+
+    <main>
+      <header class="topbar">
+        <div>
+          <p class="eyebrow">Proyecto 02 · Base de Datos 2</p>
+          <h1>Demostracion de fraude bancario</h1>
+        </div>
+        <button id="refreshBtn" class="primary">Actualizar datos</button>
+      </header>
+
+      <section id="dashboard" class="view active">
+        <div class="metric-grid" id="metricGrid"></div>
+        <div class="split">
+          <article class="panel">
+            <div class="panel-head">
+              <h2>Nodos por label</h2>
+              <span>Modelo cargado</span>
+            </div>
+            <div id="labelBars" class="bars"></div>
+          </article>
+          <article class="panel">
+            <div class="panel-head">
+              <h2>Relaciones</h2>
+              <span>Tipos activos</span>
+            </div>
+            <div id="relationshipBars" class="bars compact"></div>
+          </article>
+        </div>
+      </section>
+
+      <section id="graph" class="view">
+        <article class="panel graph-panel">
+          <div class="panel-head graph-toolbar">
+            <div>
+              <h2>Explorador de grafo</h2>
+              <span>Busca un cliente o revisa una muestra sospechosa</span>
+            </div>
+            <div class="inline-form">
+              <input id="clienteIdInput" value="C000001" aria-label="Cliente ID" />
+              <button id="loadGraphBtn">Ver cliente</button>
+              <button id="loadSampleGraphBtn">Muestra</button>
+            </div>
+          </div>
+          <svg id="graphSvg" role="img" aria-label="Visualizacion del grafo"></svg>
+          <div id="graphLegend" class="legend"></div>
+        </article>
+      </section>
+
+      <section id="fraud" class="view">
+        <article class="panel">
+          <div class="panel-head">
+            <div>
+              <h2>Consultas de deteccion</h2>
+              <span>Resultados listos para exponer en clase</span>
+            </div>
+          </div>
+          <div class="query-grid" id="fraudButtons"></div>
+          <div id="fraudTable" class="table-wrap"></div>
+        </article>
+      </section>
+
+      <section id="crud" class="view">
+        <div class="split">
+          <article class="panel">
+            <div class="panel-head">
+              <h2>Operaciones CRUD</h2>
+              <span>Nodos, labels multiples y relaciones con propiedades</span>
+            </div>
+            <div class="action-list">
+              <button data-demo="create-one">Crear Cliente 1 label</button>
+              <button data-demo="create-multi">Crear Cliente 3 labels</button>
+              <button data-demo="create-relation">Crear relacion POSEE</button>
+              <button data-demo="update">Actualizar propiedades</button>
+              <button data-demo="cleanup" class="danger">Limpiar demos</button>
+            </div>
+          </article>
+          <article class="panel">
+            <div class="panel-head">
+              <h2>Resultado</h2>
+              <span>Evidencia de la ultima operacion</span>
+            </div>
+            <pre id="crudOutput" class="code-box">Ejecuta una accion para ver la respuesta.</pre>
+          </article>
+        </div>
+      </section>
+
+      <section id="csv" class="view">
+        <div class="split">
+          <article class="panel">
+            <div class="panel-head">
+              <h2>Carga CSV</h2>
+              <span>Demo de importacion de clientes desde interfaz</span>
+            </div>
+            <form id="csvForm" class="csv-form">
+              <input id="csvFile" type="file" accept=".csv,text/csv" />
+              <button type="submit">Cargar CSV</button>
+              <button type="button" id="downloadSampleBtn">Descargar muestra</button>
+            </form>
+          </article>
+          <article class="panel">
+            <div class="panel-head">
+              <h2>Respuesta</h2>
+              <span>Preview y conteo importado</span>
+            </div>
+            <pre id="csvOutput" class="code-box">Sube un CSV con columnas de clientes.</pre>
+          </article>
+        </div>
+      </section>
+
+      <section id="rubric" class="view">
+        <article class="panel">
+          <div class="panel-head">
+            <h2>Checklist para la rubrica</h2>
+            <span>Lo que debe mostrarse durante la presentacion</span>
+          </div>
+          <div class="checklist" id="rubricList"></div>
+        </article>
+      </section>
+    </main>
+
+    <div id="toast" class="toast"></div>
+    <script src="/app.js" type="module"></script>
+  </body>
+</html>
