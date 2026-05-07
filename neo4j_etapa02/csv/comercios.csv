@@ -1,0 +1,451 @@
+comercio_id,nombre_comercio,categoria_mcc,industria,pais,ciudad,riesgo_comercio,antiguedad_meses,blacklist,metodos_pago_aceptados,fecha_alta,rating_promedio,url
+M000001,Comercio Supermercado 0001,5411,SUPERMERCADO,GT,Guatemala,29.70,156,false,QR|TARJETA|TRANSFERENCIA,2013-06-28,3.61,https://comercio0001.example.com
+M000002,Comercio Transporte 0002,4111,TRANSPORTE,CR,San Jose,39.95,146,false,TARJETA|LINK_PAGO|CRIPTO,2014-04-24,2.79,https://comercio0002.example.com
+M000003,Comercio Transporte 0003,4111,TRANSPORTE,BR,Sao Paulo,24.63,154,false,TARJETA|QR|LINK_PAGO|CRIPTO,2013-08-27,3.91,https://comercio0003.example.com
+M000004,Comercio Remitesas 0004,4829,REMITESAS,CO,Bogota,64.64,106,false,TRANSFERENCIA|CRIPTO|TARJETA|LINK_PAGO,2017-08-06,2.32,https://comercio0004.example.com
+M000005,Comercio Restaurante 0005,5812,RESTAURANTE,ES,Madrid,24.64,94,false,TARJETA|TRANSFERENCIA|QR|LINK_PAGO,2018-08-01,4.14,https://comercio0005.example.com
+M000006,Comercio E_Commerce 0006,5999,E_COMMERCE,MX,Monterrey,60.45,50,false,TRANSFERENCIA|TARJETA,2022-03-13,3.24,https://comercio0006.example.com
+M000007,Comercio Electronica 0007,5732,ELECTRONICA,CL,Santiago,28.90,116,false,TRANSFERENCIA|LINK_PAGO,2016-10-10,3.95,https://comercio0007.example.com
+M000008,Comercio E_Commerce 0008,5999,E_COMMERCE,SV,San Salvador,49.91,56,false,LINK_PAGO|TARJETA|CRIPTO|TRANSFERENCIA,2021-09-14,3.97,https://comercio0008.example.com
+M000009,Comercio Servicios_Financieros 0009,6012,SERVICIOS_FINANCIEROS,EC,Quito,72.33,47,false,CRIPTO|LINK_PAGO,2022-06-11,1.81,https://comercio0009.example.com
+M000010,Comercio Restaurante 0010,5812,RESTAURANTE,GT,Escuintla,26.99,8,false,TARJETA|CRIPTO,2025-08-24,4.52,https://comercio0010.example.com
+M000011,Comercio Servicios_Financieros 0011,6012,SERVICIOS_FINANCIEROS,HN,Tegucigalpa,62.91,5,false,QR|TRANSFERENCIA,2025-11-22,3.82,https://comercio0011.example.com
+M000012,Comercio Servicios_Financieros 0012,6012,SERVICIOS_FINANCIEROS,SV,San Salvador,49.62,56,false,TRANSFERENCIA|LINK_PAGO|CRIPTO,2021-09-14,3.65,https://comercio0012.example.com
+M000013,Comercio Crypto 0013,6051,CRYPTO,SV,San Salvador,84.73,8,true,TRANSFERENCIA|LINK_PAGO|CRIPTO,2025-08-24,1.41,https://comercio0013.example.com
+M000014,Comercio Servicios_Financieros 0014,6012,SERVICIOS_FINANCIEROS,MX,Ciudad de Mexico,55.52,129,false,CRIPTO|LINK_PAGO|TARJETA|TRANSFERENCIA,2015-09-16,4.18,https://comercio0014.example.com
+M000015,Comercio Servicios_Financieros 0015,6012,SERVICIOS_FINANCIEROS,GT,Guatemala,72.52,160,false,QR|LINK_PAGO,2013-02-28,3.32,https://comercio0015.example.com
+M000016,Comercio Servicios_Basicos 0016,4900,SERVICIOS_BASICOS,AR,Buenos Aires,33.20,22,false,TARJETA|LINK_PAGO,2024-06-30,2.62,https://comercio0016.example.com
+M000017,Comercio Electronica 0017,5732,ELECTRONICA,CO,Bogota,39.71,34,false,CRIPTO|TRANSFERENCIA|LINK_PAGO|TARJETA,2023-07-06,1.94,https://comercio0017.example.com
+M000018,Comercio Transporte 0018,4111,TRANSPORTE,GT,Quetzaltenango,45.62,124,false,LINK_PAGO|CRIPTO|TARJETA,2016-02-13,2.33,https://comercio0018.example.com
+M000019,Comercio Apuestas 0019,7995,APUESTAS,EC,Quito,76.82,145,false,QR|CRIPTO|LINK_PAGO|TRANSFERENCIA,2014-05-24,1.49,https://comercio0019.example.com
+M000020,Comercio Electronica 0020,5732,ELECTRONICA,PE,Lima,36.53,110,false,QR|TARJETA|CRIPTO|TRANSFERENCIA,2017-04-08,3.08,https://comercio0020.example.com
+M000021,Comercio Restaurante 0021,5812,RESTAURANTE,PA,Panama City,23.65,51,false,LINK_PAGO|CRIPTO,2022-02-11,2.47,https://comercio0021.example.com
+M000022,Comercio Crypto 0022,6051,CRYPTO,EC,Quito,95.53,155,false,LINK_PAGO|CRIPTO|TRANSFERENCIA|TARJETA,2013-07-28,3.90,https://comercio0022.example.com
+M000023,Comercio Transporte 0023,4111,TRANSPORTE,IN,Mumbai,27.11,95,false,TRANSFERENCIA|TARJETA,2018-07-02,1.96,https://comercio0023.example.com
+M000024,Comercio Electronica 0024,5732,ELECTRONICA,CO,Bogota,49.44,114,false,QR|TARJETA|TRANSFERENCIA|LINK_PAGO,2016-12-09,4.43,https://comercio0024.example.com
+M000025,Comercio Supermercado 0025,5411,SUPERMERCADO,CR,San Jose,36.88,25,false,CRIPTO|TARJETA|TRANSFERENCIA,2024-04-01,3.24,https://comercio0025.example.com
+M000026,Comercio Supermercado 0026,5411,SUPERMERCADO,GT,Guatemala,31.94,24,false,TARJETA|TRANSFERENCIA,2024-05-01,3.03,https://comercio0026.example.com
+M000027,Comercio Remitesas 0027,4829,REMITESAS,GT,Guatemala,76.78,96,false,TARJETA|TRANSFERENCIA|CRIPTO,2018-06-02,3.35,https://comercio0027.example.com
+M000028,Comercio Supermercado 0028,5411,SUPERMERCADO,BR,Sao Paulo,27.46,36,false,TRANSFERENCIA|QR,2023-05-07,4.32,https://comercio0028.example.com
+M000029,Comercio Transporte 0029,4111,TRANSPORTE,GB,London,25.65,62,false,CRIPTO|TARJETA|QR|LINK_PAGO,2021-03-18,3.94,https://comercio0029.example.com
+M000030,Comercio Crypto 0030,6051,CRYPTO,CO,Bogota,99.00,157,false,LINK_PAGO|TARJETA|CRIPTO,2013-05-29,3.12,https://comercio0030.example.com
+M000031,Comercio Electronica 0031,5732,ELECTRONICA,BR,Sao Paulo,26.74,66,false,TARJETA|TRANSFERENCIA|CRIPTO|LINK_PAGO,2020-11-18,2.63,https://comercio0031.example.com
+M000032,Comercio Servicios_Financieros 0032,6012,SERVICIOS_FINANCIEROS,AR,Buenos Aires,72.49,49,false,QR|TARJETA|TRANSFERENCIA,2022-04-12,1.96,https://comercio0032.example.com
+M000033,Comercio Remitesas 0033,4829,REMITESAS,FR,Paris,57.67,40,false,LINK_PAGO|QR|TRANSFERENCIA|TARJETA,2023-01-07,2.40,https://comercio0033.example.com
+M000034,Comercio Crypto 0034,6051,CRYPTO,GT,Guatemala,85.59,123,true,CRIPTO|TRANSFERENCIA|QR,2016-03-14,3.26,https://comercio0034.example.com
+M000035,Comercio Electronica 0035,5732,ELECTRONICA,EC,Quito,29.61,94,true,TRANSFERENCIA|QR|TARJETA|LINK_PAGO,2018-08-01,1.84,https://comercio0035.example.com
+M000036,Comercio Crypto 0036,6051,CRYPTO,MX,Ciudad de Mexico,93.62,125,true,LINK_PAGO|TRANSFERENCIA|TARJETA|CRIPTO,2016-01-14,3.29,https://comercio0036.example.com
+M000037,Comercio Crypto 0037,6051,CRYPTO,PE,Lima,81.45,100,false,CRIPTO|TRANSFERENCIA|QR,2018-02-02,2.10,https://comercio0037.example.com
+M000038,Comercio Servicios_Basicos 0038,4900,SERVICIOS_BASICOS,PA,Panama City,18.42,60,false,LINK_PAGO|TRANSFERENCIA|CRIPTO,2021-05-17,3.84,https://comercio0038.example.com
+M000039,Comercio Supermercado 0039,5411,SUPERMERCADO,HN,Tegucigalpa,26.74,83,false,TARJETA|TRANSFERENCIA|CRIPTO|QR,2019-06-27,3.84,https://comercio0039.example.com
+M000040,Comercio E_Commerce 0040,5999,E_COMMERCE,GT,Guatemala,60.69,83,false,TRANSFERENCIA|QR|CRIPTO|LINK_PAGO,2019-06-27,4.18,https://comercio0040.example.com
+M000041,Comercio Electronica 0041,5732,ELECTRONICA,US,Miami,27.45,63,false,LINK_PAGO|TRANSFERENCIA|CRIPTO,2021-02-16,2.86,https://comercio0041.example.com
+M000042,Comercio Remitesas 0042,4829,REMITESAS,DE,Berlin,68.00,54,false,CRIPTO|QR|TARJETA,2021-11-13,2.69,https://comercio0042.example.com
+M000043,Comercio Restaurante 0043,5812,RESTAURANTE,MX,Monterrey,41.14,127,false,TARJETA|QR|TRANSFERENCIA,2015-11-15,2.20,https://comercio0043.example.com
+M000044,Comercio Crypto 0044,6051,CRYPTO,SV,San Salvador,91.83,83,false,TRANSFERENCIA|TARJETA|QR|CRIPTO,2019-06-27,3.33,https://comercio0044.example.com
+M000045,Comercio Electronica 0045,5732,ELECTRONICA,EC,Quito,50.03,140,false,LINK_PAGO|QR|CRIPTO|TARJETA,2014-10-21,3.96,https://comercio0045.example.com
+M000046,Comercio Crypto 0046,6051,CRYPTO,EC,Quito,79.87,141,false,QR|TRANSFERENCIA|CRIPTO,2014-09-21,3.26,https://comercio0046.example.com
+M000047,Comercio E_Commerce 0047,5999,E_COMMERCE,HN,Tegucigalpa,57.73,98,false,LINK_PAGO|QR,2018-04-03,3.23,https://comercio0047.example.com
+M000048,Comercio Remitesas 0048,4829,REMITESAS,BR,Sao Paulo,58.62,35,false,CRIPTO|TRANSFERENCIA|QR|TARJETA,2023-06-06,2.50,https://comercio0048.example.com
+M000049,Comercio Apuestas 0049,7995,APUESTAS,US,Miami,90.55,138,false,LINK_PAGO|CRIPTO|QR,2014-12-20,1.81,https://comercio0049.example.com
+M000050,Comercio Remitesas 0050,4829,REMITESAS,AE,Dubai,60.47,143,false,CRIPTO|TARJETA|TRANSFERENCIA,2014-07-23,1.85,https://comercio0050.example.com
+M000051,Comercio Remitesas 0051,4829,REMITESAS,DE,Berlin,63.82,128,false,CRIPTO|TRANSFERENCIA,2015-10-16,1.55,https://comercio0051.example.com
+M000052,Comercio Crypto 0052,6051,CRYPTO,PA,Panama City,82.09,8,false,CRIPTO|QR|LINK_PAGO,2025-08-24,3.58,https://comercio0052.example.com
+M000053,Comercio E_Commerce 0053,5999,E_COMMERCE,GT,Guatemala,57.32,91,false,TRANSFERENCIA|LINK_PAGO,2018-10-30,2.33,https://comercio0053.example.com
+M000054,Comercio Electronica 0054,5732,ELECTRONICA,GT,Quetzaltenango,36.48,86,false,TRANSFERENCIA|LINK_PAGO,2019-03-29,4.33,https://comercio0054.example.com
+M000055,Comercio Crypto 0055,6051,CRYPTO,GB,London,91.12,59,false,QR|TRANSFERENCIA|LINK_PAGO|CRIPTO,2021-06-16,2.83,https://comercio0055.example.com
+M000056,Comercio Crypto 0056,6051,CRYPTO,CN,Shenzhen,93.74,154,false,LINK_PAGO|CRIPTO|QR|TARJETA,2013-08-27,2.94,https://comercio0056.example.com
+M000057,Comercio Restaurante 0057,5812,RESTAURANTE,PA,Panama City,37.72,94,false,QR|LINK_PAGO,2018-08-01,2.38,https://comercio0057.example.com
+M000058,Comercio E_Commerce 0058,5999,E_COMMERCE,GT,Guatemala,42.16,158,false,TARJETA|QR|CRIPTO,2013-04-29,1.81,https://comercio0058.example.com
+M000059,Comercio Servicios_Basicos 0059,4900,SERVICIOS_BASICOS,GB,London,40.76,119,false,TARJETA|LINK_PAGO|QR|CRIPTO,2016-07-12,2.76,https://comercio0059.example.com
+M000060,Comercio Restaurante 0060,5812,RESTAURANTE,CO,Bogota,20.34,46,false,TARJETA|TRANSFERENCIA,2022-07-11,4.29,https://comercio0060.example.com
+M000061,Comercio Restaurante 0061,5812,RESTAURANTE,FR,Paris,40.11,126,false,LINK_PAGO|TARJETA,2015-12-15,1.96,https://comercio0061.example.com
+M000062,Comercio Restaurante 0062,5812,RESTAURANTE,AR,Buenos Aires,23.54,19,false,QR|TRANSFERENCIA,2024-09-28,2.07,https://comercio0062.example.com
+M000063,Comercio Servicios_Basicos 0063,4900,SERVICIOS_BASICOS,PA,Panama City,34.96,132,false,CRIPTO|TRANSFERENCIA|TARJETA|QR,2015-06-18,3.19,https://comercio0063.example.com
+M000064,Comercio Remitesas 0064,4829,REMITESAS,BR,Sao Paulo,66.12,58,false,QR|TRANSFERENCIA|TARJETA|LINK_PAGO,2021-07-16,3.19,https://comercio0064.example.com
+M000065,Comercio Remitesas 0065,4829,REMITESAS,AR,Buenos Aires,79.16,48,false,LINK_PAGO|TARJETA|QR|TRANSFERENCIA,2022-05-12,1.98,https://comercio0065.example.com
+M000066,Comercio Servicios_Basicos 0066,4900,SERVICIOS_BASICOS,BR,Sao Paulo,21.22,69,false,LINK_PAGO|TRANSFERENCIA|QR,2020-08-20,1.87,https://comercio0066.example.com
+M000067,Comercio Transporte 0067,4111,TRANSPORTE,GT,Escuintla,29.90,146,false,TARJETA|CRIPTO|LINK_PAGO,2014-04-24,3.57,https://comercio0067.example.com
+M000068,Comercio Crypto 0068,6051,CRYPTO,GT,Escuintla,80.87,56,false,TRANSFERENCIA|CRIPTO,2021-09-14,2.80,https://comercio0068.example.com
+M000069,Comercio Apuestas 0069,7995,APUESTAS,GB,London,77.32,98,false,QR|TRANSFERENCIA|LINK_PAGO|TARJETA,2018-04-03,2.55,https://comercio0069.example.com
+M000070,Comercio Apuestas 0070,7995,APUESTAS,US,Miami,91.48,55,false,TARJETA|QR|CRIPTO|LINK_PAGO,2021-10-14,2.79,https://comercio0070.example.com
+M000071,Comercio Servicios_Basicos 0071,4900,SERVICIOS_BASICOS,US,Houston,29.69,34,false,TRANSFERENCIA|QR|LINK_PAGO,2023-07-06,3.66,https://comercio0071.example.com
+M000072,Comercio E_Commerce 0072,5999,E_COMMERCE,CR,San Jose,36.53,132,false,LINK_PAGO|TARJETA|CRIPTO,2015-06-18,3.30,https://comercio0072.example.com
+M000073,Comercio Supermercado 0073,5411,SUPERMERCADO,MX,Monterrey,38.68,13,false,CRIPTO|LINK_PAGO|TARJETA|TRANSFERENCIA,2025-03-27,4.24,https://comercio0073.example.com
+M000074,Comercio E_Commerce 0074,5999,E_COMMERCE,US,Miami,52.87,67,false,TARJETA|CRIPTO|LINK_PAGO|TRANSFERENCIA,2020-10-19,1.73,https://comercio0074.example.com
+M000075,Comercio Apuestas 0075,7995,APUESTAS,CR,San Jose,81.82,4,false,QR|TARJETA|CRIPTO,2025-12-22,2.57,https://comercio0075.example.com
+M000076,Comercio Crypto 0076,6051,CRYPTO,GT,Guatemala,87.25,99,false,QR|TARJETA|LINK_PAGO|CRIPTO,2018-03-04,2.62,https://comercio0076.example.com
+M000077,Comercio Apuestas 0077,7995,APUESTAS,US,Houston,78.16,109,false,TARJETA|TRANSFERENCIA,2017-05-08,3.34,https://comercio0077.example.com
+M000078,Comercio Servicios_Basicos 0078,4900,SERVICIOS_BASICOS,MX,Monterrey,26.60,117,false,LINK_PAGO|QR,2016-09-10,2.36,https://comercio0078.example.com
+M000079,Comercio Crypto 0079,6051,CRYPTO,CO,Bogota,83.53,157,false,CRIPTO|TARJETA|TRANSFERENCIA,2013-05-29,3.26,https://comercio0079.example.com
+M000080,Comercio Electronica 0080,5732,ELECTRONICA,SV,San Salvador,53.09,127,false,TARJETA|QR|TRANSFERENCIA,2015-11-15,3.98,https://comercio0080.example.com
+M000081,Comercio Servicios_Basicos 0081,4900,SERVICIOS_BASICOS,HN,Tegucigalpa,39.41,95,false,TARJETA|TRANSFERENCIA|LINK_PAGO|CRIPTO,2018-07-02,2.85,https://comercio0081.example.com
+M000082,Comercio Restaurante 0082,5812,RESTAURANTE,CN,Shenzhen,40.45,39,false,LINK_PAGO|TRANSFERENCIA|TARJETA,2023-02-06,2.77,https://comercio0082.example.com
+M000083,Comercio Apuestas 0083,7995,APUESTAS,EC,Quito,87.82,19,true,LINK_PAGO|CRIPTO|TARJETA|TRANSFERENCIA,2024-09-28,1.59,https://comercio0083.example.com
+M000084,Comercio Transporte 0084,4111,TRANSPORTE,AE,Dubai,26.11,53,false,TRANSFERENCIA|CRIPTO|LINK_PAGO,2021-12-13,3.65,https://comercio0084.example.com
+M000085,Comercio Servicios_Basicos 0085,4900,SERVICIOS_BASICOS,US,Miami,34.61,31,false,CRIPTO|TARJETA,2023-10-04,4.35,https://comercio0085.example.com
+M000086,Comercio Remitesas 0086,4829,REMITESAS,SV,San Salvador,69.61,93,false,LINK_PAGO|TARJETA,2018-08-31,3.32,https://comercio0086.example.com
+M000087,Comercio Servicios_Financieros 0087,6012,SERVICIOS_FINANCIEROS,CO,Bogota,49.89,111,false,CRIPTO|TARJETA|QR,2017-03-09,4.39,https://comercio0087.example.com
+M000088,Comercio Supermercado 0088,5411,SUPERMERCADO,IN,Mumbai,36.30,127,false,QR|LINK_PAGO|TRANSFERENCIA|CRIPTO,2015-11-15,4.11,https://comercio0088.example.com
+M000089,Comercio Apuestas 0089,7995,APUESTAS,ES,Madrid,72.55,118,false,TRANSFERENCIA|QR|CRIPTO|TARJETA,2016-08-11,1.63,https://comercio0089.example.com
+M000090,Comercio Supermercado 0090,5411,SUPERMERCADO,US,Houston,33.11,56,false,QR|TRANSFERENCIA|LINK_PAGO|TARJETA,2021-09-14,3.12,https://comercio0090.example.com
+M000091,Comercio Restaurante 0091,5812,RESTAURANTE,PA,Panama City,30.71,108,false,QR|TRANSFERENCIA|CRIPTO,2017-06-07,1.95,https://comercio0091.example.com
+M000092,Comercio Electronica 0092,5732,ELECTRONICA,GT,Escuintla,41.33,73,false,TRANSFERENCIA|CRIPTO|QR|TARJETA,2020-04-22,3.45,https://comercio0092.example.com
+M000093,Comercio Restaurante 0093,5812,RESTAURANTE,AR,Buenos Aires,34.79,43,false,LINK_PAGO|TARJETA|TRANSFERENCIA,2022-10-09,1.76,https://comercio0093.example.com
+M000094,Comercio Supermercado 0094,5411,SUPERMERCADO,CO,Bogota,30.58,133,false,CRIPTO|QR|TARJETA|LINK_PAGO,2015-05-19,3.09,https://comercio0094.example.com
+M000095,Comercio Remitesas 0095,4829,REMITESAS,IN,Mumbai,61.99,31,false,TRANSFERENCIA|TARJETA,2023-10-04,4.04,https://comercio0095.example.com
+M000096,Comercio Electronica 0096,5732,ELECTRONICA,HN,Tegucigalpa,38.93,117,false,LINK_PAGO|TRANSFERENCIA|TARJETA|CRIPTO,2016-09-10,1.79,https://comercio0096.example.com
+M000097,Comercio Supermercado 0097,5411,SUPERMERCADO,CR,San Jose,28.80,83,false,TARJETA|LINK_PAGO|TRANSFERENCIA|QR,2019-06-27,3.94,https://comercio0097.example.com
+M000098,Comercio Remitesas 0098,4829,REMITESAS,AR,Buenos Aires,54.51,23,false,TRANSFERENCIA|QR|CRIPTO|LINK_PAGO,2024-05-31,4.00,https://comercio0098.example.com
+M000099,Comercio Remitesas 0099,4829,REMITESAS,GT,Guatemala,66.56,80,false,QR|TARJETA|TRANSFERENCIA|LINK_PAGO,2019-09-25,2.34,https://comercio0099.example.com
+M000100,Comercio Supermercado 0100,5411,SUPERMERCADO,EC,Quito,14.61,47,false,TARJETA|CRIPTO|QR,2022-06-11,4.03,https://comercio0100.example.com
+M000101,Comercio Crypto 0101,6051,CRYPTO,CR,San Jose,99.00,130,false,CRIPTO|LINK_PAGO|QR,2015-08-17,2.45,https://comercio0101.example.com
+M000102,Comercio Electronica 0102,5732,ELECTRONICA,AR,Buenos Aires,26.86,33,false,LINK_PAGO|CRIPTO,2023-08-05,3.16,https://comercio0102.example.com
+M000103,Comercio Crypto 0103,6051,CRYPTO,GB,London,81.69,68,false,TARJETA|LINK_PAGO|CRIPTO,2020-09-19,2.67,https://comercio0103.example.com
+M000104,Comercio Apuestas 0104,7995,APUESTAS,BR,Sao Paulo,84.95,135,true,QR|LINK_PAGO,2015-03-20,1.84,https://comercio0104.example.com
+M000105,Comercio Servicios_Basicos 0105,4900,SERVICIOS_BASICOS,FR,Paris,24.74,134,false,CRIPTO|TRANSFERENCIA|QR,2015-04-19,3.70,https://comercio0105.example.com
+M000106,Comercio E_Commerce 0106,5999,E_COMMERCE,AE,Dubai,52.14,39,false,CRIPTO|TRANSFERENCIA|QR|TARJETA,2023-02-06,3.72,https://comercio0106.example.com
+M000107,Comercio Remitesas 0107,4829,REMITESAS,AR,Buenos Aires,79.86,107,false,CRIPTO|QR|TARJETA|TRANSFERENCIA,2017-07-07,3.71,https://comercio0107.example.com
+M000108,Comercio Transporte 0108,4111,TRANSPORTE,IN,Mumbai,23.75,76,false,QR|TRANSFERENCIA,2020-01-23,3.89,https://comercio0108.example.com
+M000109,Comercio Apuestas 0109,7995,APUESTAS,IN,Mumbai,82.45,105,false,TARJETA|CRIPTO|TRANSFERENCIA|LINK_PAGO,2017-09-05,3.40,https://comercio0109.example.com
+M000110,Comercio Electronica 0110,5732,ELECTRONICA,CL,Santiago,26.79,37,false,TRANSFERENCIA|CRIPTO|TARJETA,2023-04-07,3.89,https://comercio0110.example.com
+M000111,Comercio Electronica 0111,5732,ELECTRONICA,HN,Tegucigalpa,41.26,141,false,QR|TRANSFERENCIA|CRIPTO,2014-09-21,2.24,https://comercio0111.example.com
+M000112,Comercio Servicios_Financieros 0112,6012,SERVICIOS_FINANCIEROS,GT,Guatemala,66.52,21,false,QR|TRANSFERENCIA|CRIPTO,2024-07-30,4.00,https://comercio0112.example.com
+M000113,Comercio Servicios_Basicos 0113,4900,SERVICIOS_BASICOS,HN,Tegucigalpa,37.29,149,false,QR|CRIPTO|LINK_PAGO,2014-01-24,2.19,https://comercio0113.example.com
+M000114,Comercio E_Commerce 0114,5999,E_COMMERCE,AE,Dubai,47.70,102,false,TARJETA|LINK_PAGO|QR|TRANSFERENCIA,2017-12-04,4.15,https://comercio0114.example.com
+M000115,Comercio Servicios_Basicos 0115,4900,SERVICIOS_BASICOS,MX,Monterrey,20.76,61,false,TARJETA|QR|LINK_PAGO|CRIPTO,2021-04-17,3.58,https://comercio0115.example.com
+M000116,Comercio Apuestas 0116,7995,APUESTAS,FR,Paris,95.80,156,false,QR|TARJETA,2013-06-28,4.15,https://comercio0116.example.com
+M000117,Comercio Transporte 0117,4111,TRANSPORTE,GT,Guatemala,20.03,26,false,LINK_PAGO|CRIPTO,2024-03-02,4.74,https://comercio0117.example.com
+M000118,Comercio Servicios_Basicos 0118,4900,SERVICIOS_BASICOS,ES,Madrid,30.82,32,false,TRANSFERENCIA|LINK_PAGO,2023-09-04,2.05,https://comercio0118.example.com
+M000119,Comercio Servicios_Financieros 0119,6012,SERVICIOS_FINANCIEROS,CL,Santiago,48.84,66,false,LINK_PAGO|TRANSFERENCIA,2020-11-18,2.21,https://comercio0119.example.com
+M000120,Comercio Apuestas 0120,7995,APUESTAS,US,Miami,83.04,89,false,LINK_PAGO|TRANSFERENCIA,2018-12-29,3.46,https://comercio0120.example.com
+M000121,Comercio Crypto 0121,6051,CRYPTO,CO,Bogota,99.00,30,false,CRIPTO|TRANSFERENCIA|TARJETA,2023-11-03,1.50,https://comercio0121.example.com
+M000122,Comercio Electronica 0122,5732,ELECTRONICA,CR,San Jose,29.40,89,false,TRANSFERENCIA|QR|LINK_PAGO,2018-12-29,1.90,https://comercio0122.example.com
+M000123,Comercio Electronica 0123,5732,ELECTRONICA,CN,Shenzhen,29.77,136,false,TARJETA|QR,2015-02-18,2.20,https://comercio0123.example.com
+M000124,Comercio Servicios_Basicos 0124,4900,SERVICIOS_BASICOS,CR,San Jose,14.12,73,false,QR|TARJETA,2020-04-22,4.34,https://comercio0124.example.com
+M000125,Comercio Transporte 0125,4111,TRANSPORTE,EC,Quito,41.57,96,false,CRIPTO|LINK_PAGO,2018-06-02,2.87,https://comercio0125.example.com
+M000126,Comercio Crypto 0126,6051,CRYPTO,US,Miami,83.58,103,true,TARJETA|QR|CRIPTO|TRANSFERENCIA,2017-11-04,3.49,https://comercio0126.example.com
+M000127,Comercio Supermercado 0127,5411,SUPERMERCADO,US,Houston,35.75,139,false,QR|CRIPTO|TARJETA,2014-11-20,3.60,https://comercio0127.example.com
+M000128,Comercio Apuestas 0128,7995,APUESTAS,ES,Madrid,75.28,115,false,CRIPTO|TRANSFERENCIA,2016-11-09,2.60,https://comercio0128.example.com
+M000129,Comercio Servicios_Financieros 0129,6012,SERVICIOS_FINANCIEROS,CL,Santiago,50.07,21,false,TRANSFERENCIA|TARJETA|LINK_PAGO,2024-07-30,2.22,https://comercio0129.example.com
+M000130,Comercio Apuestas 0130,7995,APUESTAS,CO,Bogota,80.94,145,true,CRIPTO|TARJETA|QR|TRANSFERENCIA,2014-05-24,1.51,https://comercio0130.example.com
+M000131,Comercio Apuestas 0131,7995,APUESTAS,BR,Sao Paulo,80.78,28,false,TRANSFERENCIA|TARJETA,2024-01-02,4.11,https://comercio0131.example.com
+M000132,Comercio Servicios_Basicos 0132,4900,SERVICIOS_BASICOS,MX,Monterrey,24.36,139,false,TARJETA|TRANSFERENCIA|QR,2014-11-20,3.98,https://comercio0132.example.com
+M000133,Comercio Electronica 0133,5732,ELECTRONICA,PA,Panama City,34.97,24,false,LINK_PAGO|QR|TARJETA|TRANSFERENCIA,2024-05-01,3.61,https://comercio0133.example.com
+M000134,Comercio Servicios_Financieros 0134,6012,SERVICIOS_FINANCIEROS,CO,Bogota,66.20,33,false,CRIPTO|QR|LINK_PAGO,2023-08-05,4.42,https://comercio0134.example.com
+M000135,Comercio Electronica 0135,5732,ELECTRONICA,US,Miami,46.78,4,false,LINK_PAGO|CRIPTO|TRANSFERENCIA,2025-12-22,2.61,https://comercio0135.example.com
+M000136,Comercio Restaurante 0136,5812,RESTAURANTE,AE,Dubai,30.42,82,false,TARJETA|QR|LINK_PAGO|CRIPTO,2019-07-27,2.58,https://comercio0136.example.com
+M000137,Comercio Remitesas 0137,4829,REMITESAS,MX,Ciudad de Mexico,73.24,90,false,TRANSFERENCIA|TARJETA|LINK_PAGO,2018-11-29,4.08,https://comercio0137.example.com
+M000138,Comercio Apuestas 0138,7995,APUESTAS,GT,Quetzaltenango,80.74,96,true,TRANSFERENCIA|CRIPTO|QR|LINK_PAGO,2018-06-02,3.06,https://comercio0138.example.com
+M000139,Comercio Servicios_Basicos 0139,4900,SERVICIOS_BASICOS,GT,Quetzaltenango,32.68,19,false,QR|TARJETA|LINK_PAGO|TRANSFERENCIA,2024-09-28,3.23,https://comercio0139.example.com
+M000140,Comercio Supermercado 0140,5411,SUPERMERCADO,DE,Berlin,20.58,118,false,LINK_PAGO|TRANSFERENCIA,2016-08-11,2.67,https://comercio0140.example.com
+M000141,Comercio Crypto 0141,6051,CRYPTO,BR,Sao Paulo,99.00,141,false,TARJETA|TRANSFERENCIA|CRIPTO,2014-09-21,2.47,https://comercio0141.example.com
+M000142,Comercio Restaurante 0142,5812,RESTAURANTE,AR,Buenos Aires,19.02,90,false,QR|LINK_PAGO|TRANSFERENCIA,2018-11-29,3.30,https://comercio0142.example.com
+M000143,Comercio Crypto 0143,6051,CRYPTO,FR,Paris,92.78,54,false,QR|LINK_PAGO|CRIPTO,2021-11-13,3.78,https://comercio0143.example.com
+M000144,Comercio Apuestas 0144,7995,APUESTAS,ES,Madrid,89.19,92,false,LINK_PAGO|TRANSFERENCIA|QR,2018-09-30,3.45,https://comercio0144.example.com
+M000145,Comercio Restaurante 0145,5812,RESTAURANTE,US,Miami,34.66,43,false,TARJETA|QR|TRANSFERENCIA,2022-10-09,1.79,https://comercio0145.example.com
+M000146,Comercio Remitesas 0146,4829,REMITESAS,IN,Mumbai,70.88,33,false,CRIPTO|LINK_PAGO|QR,2023-08-05,3.31,https://comercio0146.example.com
+M000147,Comercio Remitesas 0147,4829,REMITESAS,IN,Mumbai,80.86,146,false,TARJETA|CRIPTO|TRANSFERENCIA,2014-04-24,3.35,https://comercio0147.example.com
+M000148,Comercio Servicios_Financieros 0148,6012,SERVICIOS_FINANCIEROS,AR,Buenos Aires,48.99,76,false,LINK_PAGO|QR|CRIPTO,2020-01-23,4.07,https://comercio0148.example.com
+M000149,Comercio Remitesas 0149,4829,REMITESAS,MX,Ciudad de Mexico,67.33,26,false,TRANSFERENCIA|TARJETA|CRIPTO|LINK_PAGO,2024-03-02,3.63,https://comercio0149.example.com
+M000150,Comercio Crypto 0150,6051,CRYPTO,PE,Lima,87.68,48,true,TARJETA|CRIPTO|LINK_PAGO,2022-05-12,1.71,https://comercio0150.example.com
+M000151,Comercio Crypto 0151,6051,CRYPTO,AE,Dubai,78.19,142,false,CRIPTO|QR,2014-08-22,2.19,https://comercio0151.example.com
+M000152,Comercio Servicios_Basicos 0152,4900,SERVICIOS_BASICOS,GT,Guatemala,15.30,73,false,CRIPTO|LINK_PAGO|TARJETA|QR,2020-04-22,2.08,https://comercio0152.example.com
+M000153,Comercio Remitesas 0153,4829,REMITESAS,GT,Guatemala,73.44,69,false,CRIPTO|TRANSFERENCIA|TARJETA,2020-08-20,1.76,https://comercio0153.example.com
+M000154,Comercio E_Commerce 0154,5999,E_COMMERCE,US,Houston,50.32,128,false,QR|TRANSFERENCIA|TARJETA,2015-10-16,2.55,https://comercio0154.example.com
+M000155,Comercio Supermercado 0155,5411,SUPERMERCADO,US,Houston,35.97,28,false,LINK_PAGO|TRANSFERENCIA,2024-01-02,3.60,https://comercio0155.example.com
+M000156,Comercio Restaurante 0156,5812,RESTAURANTE,MX,Ciudad de Mexico,17.98,108,false,LINK_PAGO|CRIPTO|TARJETA,2017-06-07,4.05,https://comercio0156.example.com
+M000157,Comercio Remitesas 0157,4829,REMITESAS,CO,Bogota,64.55,104,false,CRIPTO|QR,2017-10-05,3.82,https://comercio0157.example.com
+M000158,Comercio Servicios_Basicos 0158,4900,SERVICIOS_BASICOS,SV,San Salvador,24.28,58,false,LINK_PAGO|QR|CRIPTO,2021-07-16,2.83,https://comercio0158.example.com
+M000159,Comercio Servicios_Financieros 0159,6012,SERVICIOS_FINANCIEROS,US,Houston,56.36,97,false,TRANSFERENCIA|TARJETA|LINK_PAGO,2018-05-03,3.93,https://comercio0159.example.com
+M000160,Comercio Supermercado 0160,5411,SUPERMERCADO,SV,San Salvador,32.68,66,false,TARJETA|QR,2020-11-18,2.93,https://comercio0160.example.com
+M000161,Comercio Transporte 0161,4111,TRANSPORTE,DE,Berlin,28.42,120,false,TRANSFERENCIA|TARJETA|CRIPTO,2016-06-12,3.72,https://comercio0161.example.com
+M000162,Comercio Apuestas 0162,7995,APUESTAS,ES,Madrid,99.00,154,false,CRIPTO|TRANSFERENCIA|LINK_PAGO,2013-08-27,4.10,https://comercio0162.example.com
+M000163,Comercio Servicios_Financieros 0163,6012,SERVICIOS_FINANCIEROS,US,Miami,63.07,123,false,TRANSFERENCIA|CRIPTO|TARJETA,2016-03-14,4.41,https://comercio0163.example.com
+M000164,Comercio Supermercado 0164,5411,SUPERMERCADO,ES,Madrid,38.09,25,false,QR|TRANSFERENCIA,2024-04-01,3.18,https://comercio0164.example.com
+M000165,Comercio Supermercado 0165,5411,SUPERMERCADO,IN,Mumbai,33.93,37,false,QR|TRANSFERENCIA|TARJETA|CRIPTO,2023-04-07,2.84,https://comercio0165.example.com
+M000166,Comercio Restaurante 0166,5812,RESTAURANTE,GT,Escuintla,32.83,88,false,TARJETA|QR|TRANSFERENCIA|CRIPTO,2019-01-28,3.01,https://comercio0166.example.com
+M000167,Comercio Crypto 0167,6051,CRYPTO,ES,Madrid,99.00,142,false,QR|TRANSFERENCIA|LINK_PAGO|CRIPTO,2014-08-22,1.39,https://comercio0167.example.com
+M000168,Comercio Restaurante 0168,5812,RESTAURANTE,CR,San Jose,21.55,39,false,CRIPTO|LINK_PAGO|TRANSFERENCIA|TARJETA,2023-02-06,4.59,https://comercio0168.example.com
+M000169,Comercio Remitesas 0169,4829,REMITESAS,BR,Sao Paulo,71.14,92,false,CRIPTO|QR,2018-09-30,2.08,https://comercio0169.example.com
+M000170,Comercio Transporte 0170,4111,TRANSPORTE,GT,Quetzaltenango,43.07,50,false,CRIPTO|QR|LINK_PAGO,2022-03-13,3.42,https://comercio0170.example.com
+M000171,Comercio Remitesas 0171,4829,REMITESAS,FR,Paris,66.18,115,false,QR|LINK_PAGO,2016-11-09,2.66,https://comercio0171.example.com
+M000172,Comercio Servicios_Financieros 0172,6012,SERVICIOS_FINANCIEROS,US,Houston,66.94,98,false,TARJETA|CRIPTO|TRANSFERENCIA,2018-04-03,4.42,https://comercio0172.example.com
+M000173,Comercio Servicios_Basicos 0173,4900,SERVICIOS_BASICOS,CR,San Jose,24.37,35,false,TARJETA|CRIPTO|LINK_PAGO|QR,2023-06-06,4.16,https://comercio0173.example.com
+M000174,Comercio Remitesas 0174,4829,REMITESAS,AE,Dubai,80.86,74,true,QR|CRIPTO,2020-03-23,3.39,https://comercio0174.example.com
+M000175,Comercio Transporte 0175,4111,TRANSPORTE,US,Miami,26.79,4,false,TARJETA|QR,2025-12-22,3.67,https://comercio0175.example.com
+M000176,Comercio Crypto 0176,6051,CRYPTO,PE,Lima,92.14,77,true,LINK_PAGO|TARJETA|CRIPTO,2019-12-24,3.21,https://comercio0176.example.com
+M000177,Comercio Restaurante 0177,5812,RESTAURANTE,PE,Lima,40.27,152,false,LINK_PAGO|QR,2013-10-26,3.43,https://comercio0177.example.com
+M000178,Comercio E_Commerce 0178,5999,E_COMMERCE,HN,Tegucigalpa,39.25,86,false,TRANSFERENCIA|TARJETA,2019-03-29,4.62,https://comercio0178.example.com
+M000179,Comercio E_Commerce 0179,5999,E_COMMERCE,US,Miami,45.51,6,false,CRIPTO|QR|TARJETA,2025-10-23,4.51,https://comercio0179.example.com
+M000180,Comercio Remitesas 0180,4829,REMITESAS,FR,Paris,69.52,110,false,TRANSFERENCIA|TARJETA|QR|CRIPTO,2017-04-08,1.52,https://comercio0180.example.com
+M000181,Comercio Apuestas 0181,7995,APUESTAS,DE,Berlin,96.01,52,true,QR|LINK_PAGO|TRANSFERENCIA,2022-01-12,2.63,https://comercio0181.example.com
+M000182,Comercio Crypto 0182,6051,CRYPTO,FR,Paris,99.00,88,true,LINK_PAGO|CRIPTO,2019-01-28,3.07,https://comercio0182.example.com
+M000183,Comercio Crypto 0183,6051,CRYPTO,PE,Lima,78.15,137,false,LINK_PAGO|TARJETA|CRIPTO,2015-01-19,2.47,https://comercio0183.example.com
+M000184,Comercio E_Commerce 0184,5999,E_COMMERCE,MX,Monterrey,54.63,98,false,TRANSFERENCIA|CRIPTO|LINK_PAGO,2018-04-03,3.40,https://comercio0184.example.com
+M000185,Comercio Servicios_Basicos 0185,4900,SERVICIOS_BASICOS,US,Miami,21.38,65,false,LINK_PAGO|QR|CRIPTO,2020-12-18,2.63,https://comercio0185.example.com
+M000186,Comercio Remitesas 0186,4829,REMITESAS,EC,Quito,78.49,25,false,LINK_PAGO|TARJETA|CRIPTO|QR,2024-04-01,3.06,https://comercio0186.example.com
+M000187,Comercio Remitesas 0187,4829,REMITESAS,PE,Lima,76.31,134,false,CRIPTO|QR|LINK_PAGO|TARJETA,2015-04-19,2.21,https://comercio0187.example.com
+M000188,Comercio Crypto 0188,6051,CRYPTO,PE,Lima,90.06,119,false,TRANSFERENCIA|TARJETA|QR|LINK_PAGO|CRIPTO,2016-07-12,2.29,https://comercio0188.example.com
+M000189,Comercio Remitesas 0189,4829,REMITESAS,FR,Paris,73.68,17,false,TARJETA|QR|CRIPTO|LINK_PAGO,2024-11-27,2.37,https://comercio0189.example.com
+M000190,Comercio Servicios_Financieros 0190,6012,SERVICIOS_FINANCIEROS,MX,Ciudad de Mexico,71.18,133,false,TARJETA|LINK_PAGO|QR,2015-05-19,2.29,https://comercio0190.example.com
+M000191,Comercio Supermercado 0191,5411,SUPERMERCADO,MX,Monterrey,39.79,94,false,LINK_PAGO|QR|TRANSFERENCIA,2018-08-01,3.13,https://comercio0191.example.com
+M000192,Comercio Servicios_Basicos 0192,4900,SERVICIOS_BASICOS,CN,Shenzhen,31.86,126,false,QR|TARJETA|TRANSFERENCIA|LINK_PAGO,2015-12-15,4.46,https://comercio0192.example.com
+M000193,Comercio Supermercado 0193,5411,SUPERMERCADO,SV,San Salvador,27.49,91,false,LINK_PAGO|QR|CRIPTO,2018-10-30,3.79,https://comercio0193.example.com
+M000194,Comercio Electronica 0194,5732,ELECTRONICA,GT,Quetzaltenango,46.14,146,false,TRANSFERENCIA|CRIPTO|LINK_PAGO,2014-04-24,3.46,https://comercio0194.example.com
+M000195,Comercio Apuestas 0195,7995,APUESTAS,BR,Sao Paulo,74.18,132,false,TARJETA|LINK_PAGO|QR|TRANSFERENCIA,2015-06-18,3.31,https://comercio0195.example.com
+M000196,Comercio Servicios_Financieros 0196,6012,SERVICIOS_FINANCIEROS,US,Miami,51.88,132,false,TARJETA|QR,2015-06-18,2.60,https://comercio0196.example.com
+M000197,Comercio Restaurante 0197,5812,RESTAURANTE,EC,Quito,28.90,44,false,CRIPTO|TARJETA|TRANSFERENCIA|LINK_PAGO,2022-09-09,2.57,https://comercio0197.example.com
+M000198,Comercio Servicios_Financieros 0198,6012,SERVICIOS_FINANCIEROS,MX,Ciudad de Mexico,62.10,3,false,QR|TARJETA,2026-01-21,1.74,https://comercio0198.example.com
+M000199,Comercio Transporte 0199,4111,TRANSPORTE,GT,Guatemala,18.07,100,false,QR|CRIPTO|TRANSFERENCIA|TARJETA,2018-02-02,4.18,https://comercio0199.example.com
+M000200,Comercio Apuestas 0200,7995,APUESTAS,DE,Berlin,98.24,24,false,CRIPTO|TRANSFERENCIA,2024-05-01,1.60,https://comercio0200.example.com
+M000201,Comercio Servicios_Financieros 0201,6012,SERVICIOS_FINANCIEROS,GB,London,57.51,16,false,QR|CRIPTO|TARJETA,2024-12-27,3.44,https://comercio0201.example.com
+M000202,Comercio Servicios_Financieros 0202,6012,SERVICIOS_FINANCIEROS,CL,Santiago,66.49,110,false,TRANSFERENCIA|LINK_PAGO|CRIPTO|TARJETA,2017-04-08,4.05,https://comercio0202.example.com
+M000203,Comercio Apuestas 0203,7995,APUESTAS,IN,Mumbai,84.26,144,false,QR|CRIPTO|TRANSFERENCIA|TARJETA,2014-06-23,2.50,https://comercio0203.example.com
+M000204,Comercio Supermercado 0204,5411,SUPERMERCADO,HN,Tegucigalpa,27.65,125,false,LINK_PAGO|TRANSFERENCIA,2016-01-14,4.36,https://comercio0204.example.com
+M000205,Comercio Servicios_Financieros 0205,6012,SERVICIOS_FINANCIEROS,MX,Monterrey,71.26,7,true,TARJETA|QR|CRIPTO,2025-09-23,2.31,https://comercio0205.example.com
+M000206,Comercio Electronica 0206,5732,ELECTRONICA,FR,Paris,26.28,65,false,TRANSFERENCIA|LINK_PAGO,2020-12-18,2.65,https://comercio0206.example.com
+M000207,Comercio Servicios_Financieros 0207,6012,SERVICIOS_FINANCIEROS,AE,Dubai,61.97,78,false,QR|CRIPTO|TARJETA,2019-11-24,4.06,https://comercio0207.example.com
+M000208,Comercio Servicios_Financieros 0208,6012,SERVICIOS_FINANCIEROS,CN,Shenzhen,66.58,121,false,TARJETA|QR|CRIPTO|LINK_PAGO,2016-05-13,3.63,https://comercio0208.example.com
+M000209,Comercio Transporte 0209,4111,TRANSPORTE,GT,Guatemala,33.85,104,false,TRANSFERENCIA|CRIPTO,2017-10-05,2.54,https://comercio0209.example.com
+M000210,Comercio E_Commerce 0210,5999,E_COMMERCE,SV,San Salvador,55.01,90,false,LINK_PAGO|TARJETA,2018-11-29,3.47,https://comercio0210.example.com
+M000211,Comercio Servicios_Financieros 0211,6012,SERVICIOS_FINANCIEROS,BR,Sao Paulo,55.53,106,false,LINK_PAGO|CRIPTO|TRANSFERENCIA,2017-08-06,2.10,https://comercio0211.example.com
+M000212,Comercio Crypto 0212,6051,CRYPTO,SV,San Salvador,99.00,50,false,QR|TARJETA|CRIPTO,2022-03-13,2.21,https://comercio0212.example.com
+M000213,Comercio Supermercado 0213,5411,SUPERMERCADO,CL,Santiago,33.19,158,false,CRIPTO|TRANSFERENCIA|LINK_PAGO|QR,2013-04-29,4.51,https://comercio0213.example.com
+M000214,Comercio Remitesas 0214,4829,REMITESAS,GT,Quetzaltenango,63.90,156,false,QR|LINK_PAGO|TARJETA,2013-06-28,1.81,https://comercio0214.example.com
+M000215,Comercio Restaurante 0215,5812,RESTAURANTE,MX,Monterrey,40.88,17,false,CRIPTO|TARJETA|QR|LINK_PAGO,2024-11-27,4.06,https://comercio0215.example.com
+M000216,Comercio Apuestas 0216,7995,APUESTAS,MX,Ciudad de Mexico,95.14,72,true,TRANSFERENCIA|QR,2020-05-22,1.56,https://comercio0216.example.com
+M000217,Comercio Electronica 0217,5732,ELECTRONICA,US,Houston,36.10,8,false,TARJETA|TRANSFERENCIA|LINK_PAGO,2025-08-24,1.78,https://comercio0217.example.com
+M000218,Comercio Transporte 0218,4111,TRANSPORTE,PA,Panama City,28.86,108,false,TRANSFERENCIA|QR|CRIPTO,2017-06-07,4.35,https://comercio0218.example.com
+M000219,Comercio Apuestas 0219,7995,APUESTAS,FR,Paris,84.00,154,false,TARJETA|TRANSFERENCIA|QR|LINK_PAGO,2013-08-27,2.88,https://comercio0219.example.com
+M000220,Comercio Servicios_Financieros 0220,6012,SERVICIOS_FINANCIEROS,AR,Buenos Aires,66.72,57,false,TRANSFERENCIA|CRIPTO,2021-08-15,2.39,https://comercio0220.example.com
+M000221,Comercio Crypto 0221,6051,CRYPTO,ES,Madrid,99.00,142,true,TARJETA|QR|CRIPTO,2014-08-22,4.19,https://comercio0221.example.com
+M000222,Comercio Electronica 0222,5732,ELECTRONICA,FR,Paris,34.90,117,false,TRANSFERENCIA|QR,2016-09-10,4.05,https://comercio0222.example.com
+M000223,Comercio E_Commerce 0223,5999,E_COMMERCE,MX,Ciudad de Mexico,35.52,45,false,LINK_PAGO|QR|CRIPTO,2022-08-10,4.50,https://comercio0223.example.com
+M000224,Comercio Supermercado 0224,5411,SUPERMERCADO,AE,Dubai,17.00,71,false,TARJETA|LINK_PAGO|QR|CRIPTO,2020-06-21,4.11,https://comercio0224.example.com
+M000225,Comercio Crypto 0225,6051,CRYPTO,HN,Tegucigalpa,94.90,146,false,TARJETA|QR|CRIPTO,2014-04-24,2.20,https://comercio0225.example.com
+M000226,Comercio E_Commerce 0226,5999,E_COMMERCE,US,Houston,53.98,29,false,CRIPTO|TRANSFERENCIA|LINK_PAGO|QR,2023-12-03,2.00,https://comercio0226.example.com
+M000227,Comercio Restaurante 0227,5812,RESTAURANTE,FR,Paris,18.50,72,false,TRANSFERENCIA|CRIPTO|LINK_PAGO|QR,2020-05-22,3.47,https://comercio0227.example.com
+M000228,Comercio Crypto 0228,6051,CRYPTO,SV,San Salvador,88.13,77,false,TARJETA|QR|TRANSFERENCIA|LINK_PAGO|CRIPTO,2019-12-24,2.56,https://comercio0228.example.com
+M000229,Comercio Restaurante 0229,5812,RESTAURANTE,HN,Tegucigalpa,33.68,156,false,TARJETA|LINK_PAGO|QR,2013-06-28,2.44,https://comercio0229.example.com
+M000230,Comercio Supermercado 0230,5411,SUPERMERCADO,MX,Ciudad de Mexico,15.87,23,false,LINK_PAGO|QR|TARJETA,2024-05-31,3.00,https://comercio0230.example.com
+M000231,Comercio Transporte 0231,4111,TRANSPORTE,CN,Shenzhen,20.31,104,false,TARJETA|TRANSFERENCIA,2017-10-05,3.39,https://comercio0231.example.com
+M000232,Comercio Remitesas 0232,4829,REMITESAS,SV,San Salvador,71.85,40,false,QR|CRIPTO|LINK_PAGO|TARJETA,2023-01-07,4.11,https://comercio0232.example.com
+M000233,Comercio Restaurante 0233,5812,RESTAURANTE,GB,London,38.06,55,false,LINK_PAGO|CRIPTO,2021-10-14,3.24,https://comercio0233.example.com
+M000234,Comercio Servicios_Basicos 0234,4900,SERVICIOS_BASICOS,FR,Paris,28.15,117,false,CRIPTO|TRANSFERENCIA|QR,2016-09-10,4.59,https://comercio0234.example.com
+M000235,Comercio E_Commerce 0235,5999,E_COMMERCE,FR,Paris,40.87,40,false,CRIPTO|LINK_PAGO,2023-01-07,2.24,https://comercio0235.example.com
+M000236,Comercio Electronica 0236,5732,ELECTRONICA,CO,Bogota,43.86,41,false,CRIPTO|LINK_PAGO|TRANSFERENCIA,2022-12-08,4.39,https://comercio0236.example.com
+M000237,Comercio Electronica 0237,5732,ELECTRONICA,SV,San Salvador,38.91,117,false,CRIPTO|LINK_PAGO|QR,2016-09-10,2.15,https://comercio0237.example.com
+M000238,Comercio Servicios_Basicos 0238,4900,SERVICIOS_BASICOS,US,Houston,17.99,94,false,TARJETA|CRIPTO,2018-08-01,2.42,https://comercio0238.example.com
+M000239,Comercio Apuestas 0239,7995,APUESTAS,FR,Paris,91.03,7,true,QR|LINK_PAGO,2025-09-23,1.88,https://comercio0239.example.com
+M000240,Comercio E_Commerce 0240,5999,E_COMMERCE,GT,Escuintla,36.12,40,false,CRIPTO|TARJETA|QR|TRANSFERENCIA,2023-01-07,3.99,https://comercio0240.example.com
+M000241,Comercio Supermercado 0241,5411,SUPERMERCADO,US,Miami,25.66,140,false,LINK_PAGO|QR|TRANSFERENCIA,2014-10-21,3.92,https://comercio0241.example.com
+M000242,Comercio Transporte 0242,4111,TRANSPORTE,PE,Lima,30.97,5,false,TARJETA|TRANSFERENCIA|LINK_PAGO,2025-11-22,2.31,https://comercio0242.example.com
+M000243,Comercio Servicios_Basicos 0243,4900,SERVICIOS_BASICOS,HN,Tegucigalpa,14.09,66,true,LINK_PAGO|TRANSFERENCIA,2020-11-18,4.73,https://comercio0243.example.com
+M000244,Comercio E_Commerce 0244,5999,E_COMMERCE,IN,Mumbai,38.42,147,false,LINK_PAGO|CRIPTO|QR,2014-03-25,1.76,https://comercio0244.example.com
+M000245,Comercio Remitesas 0245,4829,REMITESAS,MX,Ciudad de Mexico,75.23,117,false,LINK_PAGO|QR|TRANSFERENCIA,2016-09-10,1.68,https://comercio0245.example.com
+M000246,Comercio Electronica 0246,5732,ELECTRONICA,EC,Quito,44.79,44,false,TRANSFERENCIA|QR,2022-09-09,2.58,https://comercio0246.example.com
+M000247,Comercio Servicios_Basicos 0247,4900,SERVICIOS_BASICOS,GT,Guatemala,39.99,4,false,TARJETA|QR,2025-12-22,4.42,https://comercio0247.example.com
+M000248,Comercio Supermercado 0248,5411,SUPERMERCADO,PA,Panama City,35.43,65,false,TARJETA|QR|TRANSFERENCIA,2020-12-18,4.61,https://comercio0248.example.com
+M000249,Comercio Servicios_Basicos 0249,4900,SERVICIOS_BASICOS,HN,Tegucigalpa,26.74,160,false,TARJETA|TRANSFERENCIA,2013-02-28,1.99,https://comercio0249.example.com
+M000250,Comercio Transporte 0250,4111,TRANSPORTE,IN,Mumbai,45.66,28,false,QR|TARJETA|LINK_PAGO|CRIPTO,2024-01-02,2.67,https://comercio0250.example.com
+M000251,Comercio Crypto 0251,6051,CRYPTO,IN,Mumbai,89.46,105,false,QR|CRIPTO|LINK_PAGO,2017-09-05,4.19,https://comercio0251.example.com
+M000252,Comercio E_Commerce 0252,5999,E_COMMERCE,EC,Quito,57.95,100,false,TARJETA|TRANSFERENCIA,2018-02-02,2.88,https://comercio0252.example.com
+M000253,Comercio Electronica 0253,5732,ELECTRONICA,AR,Buenos Aires,45.23,4,false,TARJETA|CRIPTO|LINK_PAGO|QR,2025-12-22,3.32,https://comercio0253.example.com
+M000254,Comercio Restaurante 0254,5812,RESTAURANTE,MX,Ciudad de Mexico,22.11,121,false,TARJETA|CRIPTO,2016-05-13,4.56,https://comercio0254.example.com
+M000255,Comercio Restaurante 0255,5812,RESTAURANTE,CR,San Jose,37.42,91,false,TARJETA|TRANSFERENCIA,2018-10-30,3.69,https://comercio0255.example.com
+M000256,Comercio Electronica 0256,5732,ELECTRONICA,FR,Paris,26.49,119,false,CRIPTO|TRANSFERENCIA|LINK_PAGO,2016-07-12,3.42,https://comercio0256.example.com
+M000257,Comercio Apuestas 0257,7995,APUESTAS,IN,Mumbai,89.29,91,false,CRIPTO|TRANSFERENCIA|LINK_PAGO|QR,2018-10-30,2.11,https://comercio0257.example.com
+M000258,Comercio Servicios_Financieros 0258,6012,SERVICIOS_FINANCIEROS,MX,Monterrey,70.52,4,false,CRIPTO|LINK_PAGO,2025-12-22,2.54,https://comercio0258.example.com
+M000259,Comercio Servicios_Basicos 0259,4900,SERVICIOS_BASICOS,AR,Buenos Aires,40.13,112,false,TRANSFERENCIA|QR,2017-02-07,3.14,https://comercio0259.example.com
+M000260,Comercio Servicios_Basicos 0260,4900,SERVICIOS_BASICOS,FR,Paris,25.78,38,false,CRIPTO|TRANSFERENCIA|LINK_PAGO,2023-03-08,2.16,https://comercio0260.example.com
+M000261,Comercio Crypto 0261,6051,CRYPTO,GT,Quetzaltenango,84.73,87,false,LINK_PAGO|CRIPTO,2019-02-27,2.51,https://comercio0261.example.com
+M000262,Comercio Remitesas 0262,4829,REMITESAS,PA,Panama City,54.96,27,false,LINK_PAGO|QR,2024-02-01,4.34,https://comercio0262.example.com
+M000263,Comercio E_Commerce 0263,5999,E_COMMERCE,MX,Ciudad de Mexico,38.45,59,false,QR|CRIPTO|LINK_PAGO|TRANSFERENCIA,2021-06-16,4.04,https://comercio0263.example.com
+M000264,Comercio E_Commerce 0264,5999,E_COMMERCE,IN,Mumbai,37.53,39,false,QR|LINK_PAGO,2023-02-06,2.10,https://comercio0264.example.com
+M000265,Comercio Crypto 0265,6051,CRYPTO,AE,Dubai,94.74,138,false,QR|TARJETA|TRANSFERENCIA|CRIPTO,2014-12-20,3.17,https://comercio0265.example.com
+M000266,Comercio Electronica 0266,5732,ELECTRONICA,IN,Mumbai,52.43,147,false,CRIPTO|QR,2014-03-25,4.01,https://comercio0266.example.com
+M000267,Comercio Restaurante 0267,5812,RESTAURANTE,AR,Buenos Aires,24.63,75,false,TARJETA|CRIPTO|LINK_PAGO|QR,2020-02-22,1.91,https://comercio0267.example.com
+M000268,Comercio Servicios_Financieros 0268,6012,SERVICIOS_FINANCIEROS,CO,Bogota,60.58,66,false,CRIPTO|QR,2020-11-18,2.53,https://comercio0268.example.com
+M000269,Comercio Restaurante 0269,5812,RESTAURANTE,CR,San Jose,38.23,61,false,CRIPTO|TARJETA|LINK_PAGO,2021-04-17,1.74,https://comercio0269.example.com
+M000270,Comercio Remitesas 0270,4829,REMITESAS,FR,Paris,56.39,153,false,CRIPTO|TARJETA,2013-09-26,3.07,https://comercio0270.example.com
+M000271,Comercio Servicios_Financieros 0271,6012,SERVICIOS_FINANCIEROS,MX,Monterrey,56.04,117,false,TRANSFERENCIA|LINK_PAGO,2016-09-10,2.29,https://comercio0271.example.com
+M000272,Comercio Supermercado 0272,5411,SUPERMERCADO,BR,Sao Paulo,39.46,105,false,TRANSFERENCIA|QR|TARJETA,2017-09-05,2.53,https://comercio0272.example.com
+M000273,Comercio Transporte 0273,4111,TRANSPORTE,DE,Berlin,19.51,30,false,TRANSFERENCIA|CRIPTO,2023-11-03,2.23,https://comercio0273.example.com
+M000274,Comercio Crypto 0274,6051,CRYPTO,AE,Dubai,98.34,127,false,QR|LINK_PAGO|TARJETA|CRIPTO,2015-11-15,3.04,https://comercio0274.example.com
+M000275,Comercio Supermercado 0275,5411,SUPERMERCADO,AE,Dubai,18.70,157,false,CRIPTO|QR,2013-05-29,3.73,https://comercio0275.example.com
+M000276,Comercio Electronica 0276,5732,ELECTRONICA,GT,Guatemala,44.22,92,false,LINK_PAGO|CRIPTO|TARJETA,2018-09-30,4.00,https://comercio0276.example.com
+M000277,Comercio Servicios_Basicos 0277,4900,SERVICIOS_BASICOS,CR,San Jose,38.93,117,false,CRIPTO|QR,2016-09-10,2.54,https://comercio0277.example.com
+M000278,Comercio Transporte 0278,4111,TRANSPORTE,CR,San Jose,37.55,71,false,TRANSFERENCIA|LINK_PAGO|QR|TARJETA,2020-06-21,3.46,https://comercio0278.example.com
+M000279,Comercio Remitesas 0279,4829,REMITESAS,GT,Escuintla,56.08,89,false,TARJETA|LINK_PAGO|TRANSFERENCIA,2018-12-29,1.79,https://comercio0279.example.com
+M000280,Comercio Transporte 0280,4111,TRANSPORTE,AE,Dubai,22.78,137,false,CRIPTO|QR|TRANSFERENCIA,2015-01-19,2.43,https://comercio0280.example.com
+M000281,Comercio Crypto 0281,6051,CRYPTO,AE,Dubai,99.00,32,false,QR|LINK_PAGO|CRIPTO,2023-09-04,3.18,https://comercio0281.example.com
+M000282,Comercio Crypto 0282,6051,CRYPTO,IN,Mumbai,89.56,31,false,CRIPTO|TARJETA|TRANSFERENCIA|QR,2023-10-04,2.75,https://comercio0282.example.com
+M000283,Comercio Supermercado 0283,5411,SUPERMERCADO,PA,Panama City,12.19,36,false,TRANSFERENCIA|LINK_PAGO|TARJETA,2023-05-07,4.63,https://comercio0283.example.com
+M000284,Comercio Transporte 0284,4111,TRANSPORTE,CR,San Jose,36.69,69,false,CRIPTO|LINK_PAGO|TRANSFERENCIA|QR,2020-08-20,2.52,https://comercio0284.example.com
+M000285,Comercio Supermercado 0285,5411,SUPERMERCADO,BR,Sao Paulo,30.46,149,false,TRANSFERENCIA|TARJETA|LINK_PAGO|QR,2014-01-24,3.17,https://comercio0285.example.com
+M000286,Comercio Remitesas 0286,4829,REMITESAS,IN,Mumbai,71.42,4,false,CRIPTO|QR|TARJETA,2025-12-22,3.14,https://comercio0286.example.com
+M000287,Comercio Electronica 0287,5732,ELECTRONICA,HN,Tegucigalpa,51.58,82,false,LINK_PAGO|TARJETA,2019-07-27,2.80,https://comercio0287.example.com
+M000288,Comercio Servicios_Financieros 0288,6012,SERVICIOS_FINANCIEROS,AE,Dubai,51.16,122,false,QR|TARJETA,2016-04-13,3.74,https://comercio0288.example.com
+M000289,Comercio Crypto 0289,6051,CRYPTO,GT,Guatemala,83.43,32,false,CRIPTO|TARJETA|LINK_PAGO|TRANSFERENCIA,2023-09-04,4.30,https://comercio0289.example.com
+M000290,Comercio Crypto 0290,6051,CRYPTO,DE,Berlin,97.34,89,false,TRANSFERENCIA|TARJETA|LINK_PAGO|CRIPTO,2018-12-29,3.94,https://comercio0290.example.com
+M000291,Comercio Transporte 0291,4111,TRANSPORTE,CR,San Jose,31.12,21,false,TRANSFERENCIA|TARJETA,2024-07-30,2.91,https://comercio0291.example.com
+M000292,Comercio Crypto 0292,6051,CRYPTO,CO,Bogota,80.89,8,false,QR|TARJETA|CRIPTO,2025-08-24,1.53,https://comercio0292.example.com
+M000293,Comercio Supermercado 0293,5411,SUPERMERCADO,CN,Shenzhen,23.13,155,false,TRANSFERENCIA|QR|LINK_PAGO,2013-07-28,4.50,https://comercio0293.example.com
+M000294,Comercio Remitesas 0294,4829,REMITESAS,GT,Guatemala,77.13,7,false,TARJETA|LINK_PAGO,2025-09-23,4.28,https://comercio0294.example.com
+M000295,Comercio Transporte 0295,4111,TRANSPORTE,PE,Lima,24.94,123,false,TARJETA|LINK_PAGO,2016-03-14,3.90,https://comercio0295.example.com
+M000296,Comercio Transporte 0296,4111,TRANSPORTE,CO,Bogota,25.98,45,false,TRANSFERENCIA|TARJETA,2022-08-10,4.68,https://comercio0296.example.com
+M000297,Comercio Servicios_Financieros 0297,6012,SERVICIOS_FINANCIEROS,MX,Monterrey,67.17,63,false,QR|TRANSFERENCIA,2021-02-16,2.48,https://comercio0297.example.com
+M000298,Comercio Remitesas 0298,4829,REMITESAS,AR,Buenos Aires,58.11,23,false,TARJETA|LINK_PAGO|QR,2024-05-31,2.42,https://comercio0298.example.com
+M000299,Comercio Servicios_Basicos 0299,4900,SERVICIOS_BASICOS,SV,San Salvador,29.13,157,false,TRANSFERENCIA|LINK_PAGO|TARJETA|CRIPTO,2013-05-29,1.92,https://comercio0299.example.com
+M000300,Comercio Servicios_Financieros 0300,6012,SERVICIOS_FINANCIEROS,US,Houston,56.56,95,false,TRANSFERENCIA|CRIPTO|LINK_PAGO,2018-07-02,1.65,https://comercio0300.example.com
+M000301,Comercio Transporte 0301,4111,TRANSPORTE,CL,Santiago,21.46,53,false,QR|CRIPTO|TARJETA,2021-12-13,4.22,https://comercio0301.example.com
+M000302,Comercio E_Commerce 0302,5999,E_COMMERCE,EC,Quito,42.96,11,false,QR|TRANSFERENCIA,2025-05-26,3.39,https://comercio0302.example.com
+M000303,Comercio Servicios_Financieros 0303,6012,SERVICIOS_FINANCIEROS,ES,Madrid,70.90,114,false,CRIPTO|TARJETA|TRANSFERENCIA,2016-12-09,4.31,https://comercio0303.example.com
+M000304,Comercio Transporte 0304,4111,TRANSPORTE,MX,Monterrey,31.28,12,false,TRANSFERENCIA|TARJETA|CRIPTO|QR,2025-04-26,3.18,https://comercio0304.example.com
+M000305,Comercio Apuestas 0305,7995,APUESTAS,GT,Escuintla,97.04,120,false,QR|CRIPTO,2016-06-12,3.58,https://comercio0305.example.com
+M000306,Comercio Remitesas 0306,4829,REMITESAS,SV,San Salvador,68.23,25,false,CRIPTO|TARJETA|TRANSFERENCIA,2024-04-01,4.35,https://comercio0306.example.com
+M000307,Comercio Restaurante 0307,5812,RESTAURANTE,CR,San Jose,29.30,119,false,LINK_PAGO|QR|TARJETA,2016-07-12,4.34,https://comercio0307.example.com
+M000308,Comercio Restaurante 0308,5812,RESTAURANTE,GT,Guatemala,24.34,85,false,LINK_PAGO|TARJETA,2019-04-28,4.31,https://comercio0308.example.com
+M000309,Comercio Transporte 0309,4111,TRANSPORTE,BR,Sao Paulo,26.03,3,false,TRANSFERENCIA|QR,2026-01-21,2.77,https://comercio0309.example.com
+M000310,Comercio Transporte 0310,4111,TRANSPORTE,HN,Tegucigalpa,34.39,118,false,CRIPTO|TRANSFERENCIA|TARJETA|LINK_PAGO,2016-08-11,4.18,https://comercio0310.example.com
+M000311,Comercio E_Commerce 0311,5999,E_COMMERCE,MX,Ciudad de Mexico,60.63,138,false,LINK_PAGO|TARJETA|CRIPTO|QR,2014-12-20,2.30,https://comercio0311.example.com
+M000312,Comercio Transporte 0312,4111,TRANSPORTE,AE,Dubai,38.12,106,false,LINK_PAGO|QR|TRANSFERENCIA|TARJETA,2017-08-06,4.24,https://comercio0312.example.com
+M000313,Comercio Servicios_Financieros 0313,6012,SERVICIOS_FINANCIEROS,HN,Tegucigalpa,72.76,72,false,QR|TRANSFERENCIA|CRIPTO,2020-05-22,1.60,https://comercio0313.example.com
+M000314,Comercio Apuestas 0314,7995,APUESTAS,SV,San Salvador,76.90,36,false,TRANSFERENCIA|TARJETA|CRIPTO,2023-05-07,4.31,https://comercio0314.example.com
+M000315,Comercio Electronica 0315,5732,ELECTRONICA,FR,Paris,35.25,53,false,LINK_PAGO|TARJETA,2021-12-13,4.60,https://comercio0315.example.com
+M000316,Comercio Crypto 0316,6051,CRYPTO,GT,Quetzaltenango,78.67,124,false,LINK_PAGO|CRIPTO|QR,2016-02-13,3.24,https://comercio0316.example.com
+M000317,Comercio Servicios_Financieros 0317,6012,SERVICIOS_FINANCIEROS,EC,Quito,70.58,7,false,TRANSFERENCIA|LINK_PAGO|TARJETA|CRIPTO,2025-09-23,2.11,https://comercio0317.example.com
+M000318,Comercio Crypto 0318,6051,CRYPTO,ES,Madrid,99.00,77,true,LINK_PAGO|QR|TRANSFERENCIA|CRIPTO,2019-12-24,2.74,https://comercio0318.example.com
+M000319,Comercio Transporte 0319,4111,TRANSPORTE,ES,Madrid,31.61,92,false,TARJETA|QR,2018-09-30,2.16,https://comercio0319.example.com
+M000320,Comercio Electronica 0320,5732,ELECTRONICA,HN,Tegucigalpa,35.54,111,false,TARJETA|CRIPTO,2017-03-09,2.47,https://comercio0320.example.com
+M000321,Comercio Apuestas 0321,7995,APUESTAS,EC,Quito,85.46,102,false,TARJETA|TRANSFERENCIA|QR|LINK_PAGO,2017-12-04,3.12,https://comercio0321.example.com
+M000322,Comercio Transporte 0322,4111,TRANSPORTE,EC,Quito,24.87,27,false,CRIPTO|TRANSFERENCIA,2024-02-01,3.72,https://comercio0322.example.com
+M000323,Comercio Servicios_Basicos 0323,4900,SERVICIOS_BASICOS,AE,Dubai,31.00,38,false,LINK_PAGO|QR|TRANSFERENCIA,2023-03-08,2.15,https://comercio0323.example.com
+M000324,Comercio Transporte 0324,4111,TRANSPORTE,AE,Dubai,38.29,15,false,CRIPTO|TARJETA|QR|LINK_PAGO,2025-01-26,1.85,https://comercio0324.example.com
+M000325,Comercio Restaurante 0325,5812,RESTAURANTE,US,Houston,20.67,19,false,LINK_PAGO|TRANSFERENCIA|QR,2024-09-28,4.07,https://comercio0325.example.com
+M000326,Comercio Servicios_Financieros 0326,6012,SERVICIOS_FINANCIEROS,CN,Shenzhen,52.40,66,false,LINK_PAGO|CRIPTO,2020-11-18,2.77,https://comercio0326.example.com
+M000327,Comercio Servicios_Financieros 0327,6012,SERVICIOS_FINANCIEROS,BR,Sao Paulo,54.69,38,false,LINK_PAGO|CRIPTO|TARJETA|QR,2023-03-08,4.45,https://comercio0327.example.com
+M000328,Comercio Servicios_Basicos 0328,4900,SERVICIOS_BASICOS,CR,San Jose,20.13,58,false,TARJETA|LINK_PAGO,2021-07-16,4.71,https://comercio0328.example.com
+M000329,Comercio Crypto 0329,6051,CRYPTO,CL,Santiago,79.62,71,false,QR|TARJETA|LINK_PAGO|CRIPTO,2020-06-21,1.74,https://comercio0329.example.com
+M000330,Comercio Remitesas 0330,4829,REMITESAS,US,Houston,56.98,51,false,QR|LINK_PAGO|TARJETA|TRANSFERENCIA,2022-02-11,1.72,https://comercio0330.example.com
+M000331,Comercio Servicios_Financieros 0331,6012,SERVICIOS_FINANCIEROS,SV,San Salvador,54.37,83,false,CRIPTO|LINK_PAGO,2019-06-27,3.41,https://comercio0331.example.com
+M000332,Comercio Transporte 0332,4111,TRANSPORTE,EC,Quito,39.75,62,false,LINK_PAGO|TARJETA,2021-03-18,1.82,https://comercio0332.example.com
+M000333,Comercio Electronica 0333,5732,ELECTRONICA,GT,Quetzaltenango,28.69,88,false,LINK_PAGO|CRIPTO|TARJETA,2019-01-28,4.06,https://comercio0333.example.com
+M000334,Comercio Apuestas 0334,7995,APUESTAS,PA,Panama City,80.32,78,false,CRIPTO|TARJETA|LINK_PAGO|QR,2019-11-24,2.45,https://comercio0334.example.com
+M000335,Comercio Crypto 0335,6051,CRYPTO,GT,Guatemala,87.15,105,false,LINK_PAGO|TRANSFERENCIA|CRIPTO,2017-09-05,3.62,https://comercio0335.example.com
+M000336,Comercio Electronica 0336,5732,ELECTRONICA,CL,Santiago,45.43,159,false,QR|TRANSFERENCIA|TARJETA|LINK_PAGO,2013-03-30,2.11,https://comercio0336.example.com
+M000337,Comercio Supermercado 0337,5411,SUPERMERCADO,EC,Quito,30.67,35,false,LINK_PAGO|CRIPTO|QR,2023-06-06,4.46,https://comercio0337.example.com
+M000338,Comercio Restaurante 0338,5812,RESTAURANTE,EC,Quito,34.83,68,false,QR|CRIPTO,2020-09-19,4.25,https://comercio0338.example.com
+M000339,Comercio Apuestas 0339,7995,APUESTAS,CR,San Jose,81.99,146,false,LINK_PAGO|TARJETA|TRANSFERENCIA,2014-04-24,3.08,https://comercio0339.example.com
+M000340,Comercio Electronica 0340,5732,ELECTRONICA,MX,Ciudad de Mexico,38.82,90,false,TARJETA|CRIPTO,2018-11-29,2.68,https://comercio0340.example.com
+M000341,Comercio Apuestas 0341,7995,APUESTAS,DE,Berlin,75.31,88,false,QR|CRIPTO|LINK_PAGO|TARJETA,2019-01-28,2.83,https://comercio0341.example.com
+M000342,Comercio Servicios_Basicos 0342,4900,SERVICIOS_BASICOS,CL,Santiago,18.05,122,false,TRANSFERENCIA|LINK_PAGO|QR,2016-04-13,2.03,https://comercio0342.example.com
+M000343,Comercio Remitesas 0343,4829,REMITESAS,GT,Escuintla,80.81,60,false,TARJETA|CRIPTO,2021-05-17,2.15,https://comercio0343.example.com
+M000344,Comercio Remitesas 0344,4829,REMITESAS,FR,Paris,66.40,65,false,LINK_PAGO|TRANSFERENCIA|TARJETA|CRIPTO,2020-12-18,1.76,https://comercio0344.example.com
+M000345,Comercio Servicios_Financieros 0345,6012,SERVICIOS_FINANCIEROS,GT,Quetzaltenango,59.17,34,false,CRIPTO|QR,2023-07-06,1.71,https://comercio0345.example.com
+M000346,Comercio Supermercado 0346,5411,SUPERMERCADO,AR,Buenos Aires,15.51,32,false,CRIPTO|LINK_PAGO,2023-09-04,2.93,https://comercio0346.example.com
+M000347,Comercio Supermercado 0347,5411,SUPERMERCADO,AR,Buenos Aires,20.48,79,false,QR|CRIPTO|TRANSFERENCIA|LINK_PAGO,2019-10-25,2.48,https://comercio0347.example.com
+M000348,Comercio Servicios_Basicos 0348,4900,SERVICIOS_BASICOS,PA,Panama City,27.20,143,false,CRIPTO|TARJETA,2014-07-23,2.20,https://comercio0348.example.com
+M000349,Comercio Supermercado 0349,5411,SUPERMERCADO,GT,Guatemala,34.29,54,false,TARJETA|QR|LINK_PAGO,2021-11-13,4.29,https://comercio0349.example.com
+M000350,Comercio Electronica 0350,5732,ELECTRONICA,FR,Paris,34.13,128,false,QR|LINK_PAGO,2015-10-16,3.55,https://comercio0350.example.com
+M000351,Comercio Apuestas 0351,7995,APUESTAS,GT,Guatemala,76.81,86,false,LINK_PAGO|TRANSFERENCIA,2019-03-29,2.47,https://comercio0351.example.com
+M000352,Comercio Remitesas 0352,4829,REMITESAS,GT,Escuintla,70.69,72,false,TARJETA|LINK_PAGO|TRANSFERENCIA,2020-05-22,2.24,https://comercio0352.example.com
+M000353,Comercio E_Commerce 0353,5999,E_COMMERCE,CR,San Jose,50.20,72,false,TARJETA|LINK_PAGO,2020-05-22,3.44,https://comercio0353.example.com
+M000354,Comercio Electronica 0354,5732,ELECTRONICA,GT,Guatemala,32.07,17,false,QR|TRANSFERENCIA|LINK_PAGO|TARJETA,2024-11-27,2.42,https://comercio0354.example.com
+M000355,Comercio Apuestas 0355,7995,APUESTAS,CN,Shenzhen,89.48,28,false,TARJETA|QR,2024-01-02,1.66,https://comercio0355.example.com
+M000356,Comercio E_Commerce 0356,5999,E_COMMERCE,CO,Bogota,44.21,133,false,LINK_PAGO|CRIPTO,2015-05-19,4.38,https://comercio0356.example.com
+M000357,Comercio E_Commerce 0357,5999,E_COMMERCE,AE,Dubai,58.89,72,false,QR|LINK_PAGO|CRIPTO,2020-05-22,3.26,https://comercio0357.example.com
+M000358,Comercio Servicios_Financieros 0358,6012,SERVICIOS_FINANCIEROS,CL,Santiago,58.53,50,false,TRANSFERENCIA|CRIPTO|QR,2022-03-13,1.68,https://comercio0358.example.com
+M000359,Comercio Electronica 0359,5732,ELECTRONICA,CN,Shenzhen,41.05,71,false,LINK_PAGO|TRANSFERENCIA,2020-06-21,3.42,https://comercio0359.example.com
+M000360,Comercio Remitesas 0360,4829,REMITESAS,EC,Quito,76.15,80,false,CRIPTO|TRANSFERENCIA|LINK_PAGO|TARJETA,2019-09-25,2.86,https://comercio0360.example.com
+M000361,Comercio Servicios_Financieros 0361,6012,SERVICIOS_FINANCIEROS,GT,Quetzaltenango,55.05,5,false,QR|LINK_PAGO|TARJETA,2025-11-22,4.50,https://comercio0361.example.com
+M000362,Comercio E_Commerce 0362,5999,E_COMMERCE,MX,Monterrey,48.26,141,false,TRANSFERENCIA|CRIPTO|LINK_PAGO|TARJETA,2014-09-21,2.67,https://comercio0362.example.com
+M000363,Comercio Supermercado 0363,5411,SUPERMERCADO,PE,Lima,20.30,143,false,CRIPTO|LINK_PAGO|QR|TRANSFERENCIA,2014-07-23,2.09,https://comercio0363.example.com
+M000364,Comercio Supermercado 0364,5411,SUPERMERCADO,FR,Paris,23.59,79,false,CRIPTO|TRANSFERENCIA|TARJETA,2019-10-25,3.32,https://comercio0364.example.com
+M000365,Comercio E_Commerce 0365,5999,E_COMMERCE,ES,Madrid,42.54,53,false,CRIPTO|LINK_PAGO,2021-12-13,4.20,https://comercio0365.example.com
+M000366,Comercio Electronica 0366,5732,ELECTRONICA,AE,Dubai,37.67,49,false,QR|TARJETA,2022-04-12,1.75,https://comercio0366.example.com
+M000367,Comercio Servicios_Basicos 0367,4900,SERVICIOS_BASICOS,ES,Madrid,17.81,113,false,TRANSFERENCIA|LINK_PAGO|QR|TARJETA,2017-01-08,4.36,https://comercio0367.example.com
+M000368,Comercio Servicios_Basicos 0368,4900,SERVICIOS_BASICOS,CN,Shenzhen,38.29,46,false,TARJETA|LINK_PAGO|CRIPTO,2022-07-11,3.65,https://comercio0368.example.com
+M000369,Comercio Restaurante 0369,5812,RESTAURANTE,CL,Santiago,36.59,53,false,QR|TRANSFERENCIA,2021-12-13,3.38,https://comercio0369.example.com
+M000370,Comercio Servicios_Basicos 0370,4900,SERVICIOS_BASICOS,AR,Buenos Aires,17.46,80,false,QR|CRIPTO|LINK_PAGO,2019-09-25,2.39,https://comercio0370.example.com
+M000371,Comercio Supermercado 0371,5411,SUPERMERCADO,GB,London,39.25,38,false,TRANSFERENCIA|LINK_PAGO|QR,2023-03-08,2.55,https://comercio0371.example.com
+M000372,Comercio Crypto 0372,6051,CRYPTO,PE,Lima,80.43,13,false,TRANSFERENCIA|TARJETA|QR|CRIPTO,2025-03-27,3.44,https://comercio0372.example.com
+M000373,Comercio Crypto 0373,6051,CRYPTO,PE,Lima,99.00,19,true,QR|LINK_PAGO|CRIPTO,2024-09-28,2.25,https://comercio0373.example.com
+M000374,Comercio Electronica 0374,5732,ELECTRONICA,CR,San Jose,51.84,5,false,QR|TARJETA|LINK_PAGO,2025-11-22,2.41,https://comercio0374.example.com
+M000375,Comercio Remitesas 0375,4829,REMITESAS,HN,Tegucigalpa,58.32,134,false,LINK_PAGO|TRANSFERENCIA|TARJETA,2015-04-19,1.70,https://comercio0375.example.com
+M000376,Comercio Remitesas 0376,4829,REMITESAS,AR,Buenos Aires,62.34,81,false,QR|TRANSFERENCIA|LINK_PAGO|CRIPTO,2019-08-26,3.78,https://comercio0376.example.com
+M000377,Comercio Transporte 0377,4111,TRANSPORTE,DE,Berlin,19.44,58,false,LINK_PAGO|CRIPTO|TRANSFERENCIA,2021-07-16,4.55,https://comercio0377.example.com
+M000378,Comercio Remitesas 0378,4829,REMITESAS,CO,Bogota,70.86,23,false,TARJETA|CRIPTO,2024-05-31,1.52,https://comercio0378.example.com
+M000379,Comercio Restaurante 0379,5812,RESTAURANTE,HN,Tegucigalpa,25.07,48,false,QR|CRIPTO|TRANSFERENCIA,2022-05-12,4.48,https://comercio0379.example.com
+M000380,Comercio Servicios_Basicos 0380,4900,SERVICIOS_BASICOS,US,Miami,38.06,119,false,TRANSFERENCIA|QR,2016-07-12,4.01,https://comercio0380.example.com
+M000381,Comercio Transporte 0381,4111,TRANSPORTE,US,Miami,22.22,111,false,LINK_PAGO|TRANSFERENCIA,2017-03-09,4.65,https://comercio0381.example.com
+M000382,Comercio Apuestas 0382,7995,APUESTAS,SV,San Salvador,77.79,125,false,TRANSFERENCIA|CRIPTO|LINK_PAGO|QR,2016-01-14,4.27,https://comercio0382.example.com
+M000383,Comercio Electronica 0383,5732,ELECTRONICA,DE,Berlin,42.48,149,false,LINK_PAGO|QR|TARJETA,2014-01-24,4.22,https://comercio0383.example.com
+M000384,Comercio Remitesas 0384,4829,REMITESAS,DE,Berlin,78.68,12,false,CRIPTO|LINK_PAGO|TRANSFERENCIA,2025-04-26,1.47,https://comercio0384.example.com
+M000385,Comercio Electronica 0385,5732,ELECTRONICA,FR,Paris,37.59,23,false,LINK_PAGO|CRIPTO|QR|TARJETA,2024-05-31,1.81,https://comercio0385.example.com
+M000386,Comercio Restaurante 0386,5812,RESTAURANTE,EC,Quito,26.93,130,false,TRANSFERENCIA|CRIPTO|TARJETA|QR,2015-08-17,2.69,https://comercio0386.example.com
+M000387,Comercio Remitesas 0387,4829,REMITESAS,DE,Berlin,76.60,100,false,TRANSFERENCIA|QR|CRIPTO,2018-02-02,1.77,https://comercio0387.example.com
+M000388,Comercio Servicios_Financieros 0388,6012,SERVICIOS_FINANCIEROS,GT,Guatemala,58.66,6,false,QR|CRIPTO|TRANSFERENCIA,2025-10-23,2.01,https://comercio0388.example.com
+M000389,Comercio Crypto 0389,6051,CRYPTO,EC,Quito,95.96,126,true,TRANSFERENCIA|CRIPTO|TARJETA,2015-12-15,2.66,https://comercio0389.example.com
+M000390,Comercio E_Commerce 0390,5999,E_COMMERCE,FR,Paris,39.73,151,false,CRIPTO|QR|TRANSFERENCIA,2013-11-25,2.22,https://comercio0390.example.com
+M000391,Comercio Restaurante 0391,5812,RESTAURANTE,GT,Quetzaltenango,30.52,131,false,QR|CRIPTO|TRANSFERENCIA|LINK_PAGO,2015-07-18,3.97,https://comercio0391.example.com
+M000392,Comercio Crypto 0392,6051,CRYPTO,EC,Quito,82.78,86,false,QR|TRANSFERENCIA|CRIPTO,2019-03-29,2.90,https://comercio0392.example.com
+M000393,Comercio Crypto 0393,6051,CRYPTO,DE,Berlin,83.66,16,false,TRANSFERENCIA|QR|CRIPTO,2024-12-27,4.05,https://comercio0393.example.com
+M000394,Comercio Crypto 0394,6051,CRYPTO,GT,Escuintla,94.37,7,false,CRIPTO|QR|LINK_PAGO|TARJETA,2025-09-23,4.09,https://comercio0394.example.com
+M000395,Comercio Apuestas 0395,7995,APUESTAS,SV,San Salvador,95.73,136,true,CRIPTO|TRANSFERENCIA,2015-02-18,1.63,https://comercio0395.example.com
+M000396,Comercio Servicios_Financieros 0396,6012,SERVICIOS_FINANCIEROS,IN,Mumbai,63.73,93,false,LINK_PAGO|CRIPTO,2018-08-31,3.74,https://comercio0396.example.com
+M000397,Comercio Electronica 0397,5732,ELECTRONICA,GT,Quetzaltenango,35.29,112,false,CRIPTO|LINK_PAGO|QR|TRANSFERENCIA,2017-02-07,4.04,https://comercio0397.example.com
+M000398,Comercio Apuestas 0398,7995,APUESTAS,GT,Quetzaltenango,93.51,24,false,QR|LINK_PAGO|TARJETA|CRIPTO,2024-05-01,3.50,https://comercio0398.example.com
+M000399,Comercio Supermercado 0399,5411,SUPERMERCADO,HN,Tegucigalpa,19.13,99,false,TRANSFERENCIA|LINK_PAGO,2018-03-04,2.02,https://comercio0399.example.com
+M000400,Comercio Restaurante 0400,5812,RESTAURANTE,CL,Santiago,30.11,144,false,TRANSFERENCIA|CRIPTO|LINK_PAGO|QR,2014-06-23,2.61,https://comercio0400.example.com
+M000401,Comercio Transporte 0401,4111,TRANSPORTE,PE,Lima,18.62,80,false,CRIPTO|TRANSFERENCIA,2019-09-25,4.32,https://comercio0401.example.com
+M000402,Comercio Remitesas 0402,4829,REMITESAS,AE,Dubai,76.29,119,false,QR|LINK_PAGO|CRIPTO|TRANSFERENCIA,2016-07-12,4.28,https://comercio0402.example.com
+M000403,Comercio Restaurante 0403,5812,RESTAURANTE,MX,Ciudad de Mexico,33.47,34,false,TARJETA|QR,2023-07-06,2.42,https://comercio0403.example.com
+M000404,Comercio Electronica 0404,5732,ELECTRONICA,GB,London,31.82,139,false,QR|CRIPTO|TRANSFERENCIA,2014-11-20,4.47,https://comercio0404.example.com
+M000405,Comercio Supermercado 0405,5411,SUPERMERCADO,PA,Panama City,30.11,113,false,TARJETA|TRANSFERENCIA|QR|CRIPTO,2017-01-08,3.26,https://comercio0405.example.com
+M000406,Comercio Electronica 0406,5732,ELECTRONICA,MX,Monterrey,49.87,71,false,LINK_PAGO|QR,2020-06-21,2.39,https://comercio0406.example.com
+M000407,Comercio Servicios_Basicos 0407,4900,SERVICIOS_BASICOS,US,Houston,32.77,12,false,QR|TRANSFERENCIA,2025-04-26,3.81,https://comercio0407.example.com
+M000408,Comercio Remitesas 0408,4829,REMITESAS,AE,Dubai,56.06,118,false,TARJETA|CRIPTO|QR,2016-08-11,3.46,https://comercio0408.example.com
+M000409,Comercio Remitesas 0409,4829,REMITESAS,CN,Shenzhen,54.67,150,false,TRANSFERENCIA|CRIPTO|TARJETA|QR,2013-12-25,3.62,https://comercio0409.example.com
+M000410,Comercio Servicios_Basicos 0410,4900,SERVICIOS_BASICOS,PA,Panama City,39.60,76,false,QR|TARJETA,2020-01-23,4.28,https://comercio0410.example.com
+M000411,Comercio Remitesas 0411,4829,REMITESAS,CO,Bogota,72.99,111,false,TARJETA|LINK_PAGO|CRIPTO|QR,2017-03-09,2.05,https://comercio0411.example.com
+M000412,Comercio Crypto 0412,6051,CRYPTO,AR,Buenos Aires,78.52,72,false,LINK_PAGO|CRIPTO|TARJETA,2020-05-22,2.88,https://comercio0412.example.com
+M000413,Comercio Restaurante 0413,5812,RESTAURANTE,IN,Mumbai,24.84,87,false,TARJETA|QR|LINK_PAGO,2019-02-27,3.73,https://comercio0413.example.com
+M000414,Comercio Restaurante 0414,5812,RESTAURANTE,MX,Monterrey,36.88,89,false,TRANSFERENCIA|TARJETA|CRIPTO|LINK_PAGO,2018-12-29,1.85,https://comercio0414.example.com
+M000415,Comercio Crypto 0415,6051,CRYPTO,MX,Ciudad de Mexico,83.53,142,false,CRIPTO|QR|TRANSFERENCIA,2014-08-22,4.07,https://comercio0415.example.com
+M000416,Comercio Transporte 0416,4111,TRANSPORTE,GT,Quetzaltenango,27.20,154,false,LINK_PAGO|TRANSFERENCIA|QR,2013-08-27,2.49,https://comercio0416.example.com
+M000417,Comercio Transporte 0417,4111,TRANSPORTE,PA,Panama City,33.29,145,true,TARJETA|LINK_PAGO|CRIPTO,2014-05-24,1.98,https://comercio0417.example.com
+M000418,Comercio Electronica 0418,5732,ELECTRONICA,GT,Guatemala,30.54,155,false,LINK_PAGO|QR|TARJETA,2013-07-28,2.69,https://comercio0418.example.com
+M000419,Comercio Restaurante 0419,5812,RESTAURANTE,CN,Shenzhen,31.10,54,false,TRANSFERENCIA|LINK_PAGO,2021-11-13,3.72,https://comercio0419.example.com
+M000420,Comercio Supermercado 0420,5411,SUPERMERCADO,AR,Buenos Aires,24.29,146,false,TRANSFERENCIA|QR|CRIPTO|LINK_PAGO,2014-04-24,2.73,https://comercio0420.example.com
+M000421,Comercio Transporte 0421,4111,TRANSPORTE,HN,Tegucigalpa,36.56,116,false,TARJETA|CRIPTO|TRANSFERENCIA|QR,2016-10-10,4.27,https://comercio0421.example.com
+M000422,Comercio Supermercado 0422,5411,SUPERMERCADO,MX,Ciudad de Mexico,33.40,21,false,QR|TARJETA,2024-07-30,3.63,https://comercio0422.example.com
+M000423,Comercio Apuestas 0423,7995,APUESTAS,GT,Quetzaltenango,75.28,7,false,LINK_PAGO|TRANSFERENCIA|QR|TARJETA,2025-09-23,2.13,https://comercio0423.example.com
+M000424,Comercio Supermercado 0424,5411,SUPERMERCADO,SV,San Salvador,39.23,127,false,LINK_PAGO|TARJETA|TRANSFERENCIA|CRIPTO,2015-11-15,4.08,https://comercio0424.example.com
+M000425,Comercio Crypto 0425,6051,CRYPTO,EC,Quito,79.78,43,false,LINK_PAGO|TRANSFERENCIA|CRIPTO,2022-10-09,3.07,https://comercio0425.example.com
+M000426,Comercio Apuestas 0426,7995,APUESTAS,DE,Berlin,99.00,15,false,CRIPTO|TARJETA,2025-01-26,1.64,https://comercio0426.example.com
+M000427,Comercio Crypto 0427,6051,CRYPTO,GB,London,79.43,134,false,QR|LINK_PAGO|CRIPTO,2015-04-19,1.85,https://comercio0427.example.com
+M000428,Comercio Transporte 0428,4111,TRANSPORTE,GT,Quetzaltenango,36.78,83,false,LINK_PAGO|QR|TARJETA,2019-06-27,4.25,https://comercio0428.example.com
+M000429,Comercio Electronica 0429,5732,ELECTRONICA,HN,Tegucigalpa,48.69,42,false,TRANSFERENCIA|LINK_PAGO|CRIPTO,2022-11-08,2.48,https://comercio0429.example.com
+M000430,Comercio Apuestas 0430,7995,APUESTAS,MX,Monterrey,98.16,17,false,TRANSFERENCIA|TARJETA,2024-11-27,3.37,https://comercio0430.example.com
+M000431,Comercio Apuestas 0431,7995,APUESTAS,GT,Guatemala,72.99,29,false,QR|CRIPTO,2023-12-03,2.05,https://comercio0431.example.com
+M000432,Comercio Servicios_Basicos 0432,4900,SERVICIOS_BASICOS,IN,Mumbai,40.34,33,false,TRANSFERENCIA|QR|CRIPTO|TARJETA,2023-08-05,3.15,https://comercio0432.example.com
+M000433,Comercio Servicios_Financieros 0433,6012,SERVICIOS_FINANCIEROS,IN,Mumbai,74.71,27,false,CRIPTO|LINK_PAGO|TARJETA|QR,2024-02-01,2.62,https://comercio0433.example.com
+M000434,Comercio Restaurante 0434,5812,RESTAURANTE,US,Miami,28.95,67,false,TRANSFERENCIA|TARJETA,2020-10-19,2.18,https://comercio0434.example.com
+M000435,Comercio Apuestas 0435,7995,APUESTAS,US,Houston,83.42,107,true,QR|TRANSFERENCIA|TARJETA,2017-07-07,2.97,https://comercio0435.example.com
+M000436,Comercio Transporte 0436,4111,TRANSPORTE,BR,Sao Paulo,21.87,107,false,TARJETA|TRANSFERENCIA|LINK_PAGO|QR,2017-07-07,3.57,https://comercio0436.example.com
+M000437,Comercio Apuestas 0437,7995,APUESTAS,CL,Santiago,83.14,6,false,TRANSFERENCIA|LINK_PAGO|QR|TARJETA,2025-10-23,4.22,https://comercio0437.example.com
+M000438,Comercio E_Commerce 0438,5999,E_COMMERCE,SV,San Salvador,57.41,51,false,TRANSFERENCIA|QR|LINK_PAGO,2022-02-11,1.89,https://comercio0438.example.com
+M000439,Comercio Transporte 0439,4111,TRANSPORTE,PA,Panama City,33.24,52,false,QR|TRANSFERENCIA|TARJETA,2022-01-12,3.44,https://comercio0439.example.com
+M000440,Comercio Transporte 0440,4111,TRANSPORTE,US,Miami,28.97,83,false,TARJETA|LINK_PAGO,2019-06-27,2.42,https://comercio0440.example.com
+M000441,Comercio Restaurante 0441,5812,RESTAURANTE,SV,San Salvador,32.60,152,false,CRIPTO|TARJETA|QR|TRANSFERENCIA,2013-10-26,3.31,https://comercio0441.example.com
+M000442,Comercio E_Commerce 0442,5999,E_COMMERCE,HN,Tegucigalpa,42.59,83,false,TARJETA|QR,2019-06-27,2.98,https://comercio0442.example.com
+M000443,Comercio E_Commerce 0443,5999,E_COMMERCE,AE,Dubai,48.03,28,false,CRIPTO|QR|TARJETA|LINK_PAGO,2024-01-02,3.11,https://comercio0443.example.com
+M000444,Comercio Servicios_Basicos 0444,4900,SERVICIOS_BASICOS,CO,Bogota,19.18,37,false,TRANSFERENCIA|QR,2023-04-07,3.48,https://comercio0444.example.com
+M000445,Comercio Servicios_Basicos 0445,4900,SERVICIOS_BASICOS,GB,London,29.95,9,false,TARJETA|TRANSFERENCIA|CRIPTO,2025-07-25,3.72,https://comercio0445.example.com
+M000446,Comercio Servicios_Basicos 0446,4900,SERVICIOS_BASICOS,CL,Santiago,21.08,149,false,TRANSFERENCIA|LINK_PAGO|TARJETA,2014-01-24,4.30,https://comercio0446.example.com
+M000447,Comercio Restaurante 0447,5812,RESTAURANTE,CR,San Jose,16.39,73,false,TARJETA|TRANSFERENCIA|CRIPTO|LINK_PAGO,2020-04-22,2.66,https://comercio0447.example.com
+M000448,Comercio Restaurante 0448,5812,RESTAURANTE,EC,Quito,36.22,104,false,QR|CRIPTO|TRANSFERENCIA|TARJETA,2017-10-05,2.40,https://comercio0448.example.com
+M000449,Comercio Transporte 0449,4111,TRANSPORTE,CN,Shenzhen,44.49,10,false,LINK_PAGO|TRANSFERENCIA|QR,2025-06-25,2.05,https://comercio0449.example.com
+M000450,Comercio Servicios_Financieros 0450,6012,SERVICIOS_FINANCIEROS,HN,Tegucigalpa,49.22,41,false,TARJETA|QR|CRIPTO|LINK_PAGO,2022-12-08,3.79,https://comercio0450.example.com

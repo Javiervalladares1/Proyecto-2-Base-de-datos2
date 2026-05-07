@@ -1,0 +1,28 @@
+Resumen de dataset generado
+===========================
+Semilla: 20260421
+
+Nodos:
+- Cliente: 1200
+- Cuenta: 1800
+- Transaccion: 9000
+- Dispositivo: 900
+- Ubicacion: 160
+- Comercio: 450
+- Alerta: 1400
+- TOTAL: 14910
+
+Relaciones:
+- POSEE: 1968
+- REALIZA: 9000
+- DEBITA: 9000
+- ACREDITA: 9000
+- USA: 1503
+- SE_ORIGINA_EN: 9000
+- SE_DESTINA_A: 4183
+- GENERA: 1400
+- AFECTA_A: 1400
+- UBICADO_EN: 450
+- COMPARTE_DISPOSITIVO: 830
+- VINCULADO_A: 2419
+- OCURRE_ANTES_DE: 1906
